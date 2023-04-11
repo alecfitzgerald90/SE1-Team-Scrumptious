@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\fitzk\\OneDrive\\Desktop\\Software Engineer\\BucHunt-Master\\BucHunt-Master\\ScavengeRUs\\ScavengeRUs.csproj": {}
+    "C:\\Users\\School\\source\\repos\\SE1-Team-Scrumptious2\\ScavengeRUs.csproj": {}
   },
   "projects": {
-    "C:\\Users\\fitzk\\OneDrive\\Desktop\\Software Engineer\\BucHunt-Master\\BucHunt-Master\\ScavengeRUs\\ScavengeRUs.csproj": {
+    "C:\\Users\\School\\source\\repos\\SE1-Team-Scrumptious2\\ScavengeRUs.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\fitzk\\OneDrive\\Desktop\\Software Engineer\\BucHunt-Master\\BucHunt-Master\\ScavengeRUs\\ScavengeRUs.csproj",
+        "projectUniqueName": "C:\\Users\\School\\source\\repos\\SE1-Team-Scrumptious2\\ScavengeRUs.csproj",
         "projectName": "ScavengeRUs",
-        "projectPath": "C:\\Users\\fitzk\\OneDrive\\Desktop\\Software Engineer\\BucHunt-Master\\BucHunt-Master\\ScavengeRUs\\ScavengeRUs.csproj",
-        "packagesPath": "C:\\Users\\fitzk\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\fitzk\\OneDrive\\Desktop\\Software Engineer\\BucHunt-Master\\BucHunt-Master\\ScavengeRUs\\obj\\",
+        "projectPath": "C:\\Users\\School\\source\\repos\\SE1-Team-Scrumptious2\\ScavengeRUs.csproj",
+        "packagesPath": "C:\\Users\\School\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\School\\source\\repos\\SE1-Team-Scrumptious2\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\fitzk\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\School\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -46,15 +46,15 @@
             },
             "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[6.0.10, )"
+              "version": "[6.0.15, )"
             },
             "Microsoft.AspNetCore.Identity.UI": {
               "target": "Package",
-              "version": "[6.0.10, )"
+              "version": "[6.0.15, )"
             },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
-              "version": "[6.0.10, )"
+              "version": "[6.0.15, )"
             },
             "Microsoft.EntityFrameworkCore.Sqlite": {
               "target": "Package",
@@ -64,11 +64,15 @@
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[6.0.10, )"
+              "version": "[6.0.15, )"
             },
             "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
               "target": "Package",
-              "version": "[6.0.10, )"
+              "version": "[6.0.13, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.3.0, )"
             }
           },
           "imports": [
@@ -77,29 +81,10 @@
             "net47",
             "net471",
             "net472",
-            "net48",
-            "net481"
+            "net48"
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[6.0.13, 6.0.13]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Host.win-x64",
-              "version": "[6.0.13, 6.0.13]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Ref",
-              "version": "[6.0.13, 6.0.13]"
-            },
-            {
-              "name": "Microsoft.WindowsDesktop.App.Ref",
-              "version": "[6.0.13, 6.0.13]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
@@ -108,7 +93,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
         }
       }
     }
