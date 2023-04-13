@@ -83,6 +83,9 @@ namespace ScavengeRUs.Areas.Identity.Pages.Account
             [EmailAddress]
             [Display(Name = "Email")]
             public string Email { get; set; }
+            [Required]
+            [Display(Name = "Username")]
+            public string Username { get; set; } = String.Empty;
 
             [Required]
             [Display(Name ="First Name")]
@@ -133,6 +136,7 @@ namespace ScavengeRUs.Areas.Identity.Pages.Account
                 user.FirstName = Input.FirstName;
                 user.LastName = Input.LastName;
                 user.PhoneNumber = Input.PhoneNumber;
+                user.Username = Input.Username;
                 
                 var roleCheckPlayer = await _roleManager.RoleExistsAsync("Player");
                 var roleCheckAdmin = await _roleManager.RoleExistsAsync("Admin");
@@ -145,7 +149,7 @@ namespace ScavengeRUs.Areas.Identity.Pages.Account
                 await _userManager.AddToRoleAsync(user, defaultRole.Name);
                 user.Roles.Add("Player");
 
-                await _userStore.SetUserNameAsync(user, Input.Email, CancellationToken.None);
+                await _userStore.SetUserNameAsync(user, Input.Username, CancellationToken.None);
                 await _emailStore.SetEmailAsync(user, Input.Email, CancellationToken.None);
                 var result = await _userManager.CreateAsync(user, Input.Password);
 

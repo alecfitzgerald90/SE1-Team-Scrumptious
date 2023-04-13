@@ -125,7 +125,7 @@ namespace ScavengeRUs.Controllers
         {
             if (ModelState.IsValid)
             {
-                user.UserName = user.Email;
+                user.UserName = user.Username;
                 await _userRepo.CreateAsync(user, defaultPassword);
                 return RedirectToAction("Details", new { id = user.UserName });
             }
@@ -142,5 +142,7 @@ namespace ScavengeRUs.Controllers
             var currentUser = await _userRepo.ReadAsync(User.Identity?.Name!);
             return View(currentUser);
         }
+
+        
     }
 }

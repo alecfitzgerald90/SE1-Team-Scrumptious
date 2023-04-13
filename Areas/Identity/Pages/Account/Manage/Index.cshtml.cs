@@ -30,7 +30,17 @@ namespace ScavengeRUs.Areas.Identity.Pages.Account.Manage
         ///     This API supports the ASP.NET Core Identity default UI infrastructure and is not intended to be used
         ///     directly from your code. This API may change or be removed in future releases.
         /// </summary>
-        ///public string Username { get; set; }
+        public string FirstName { get; set; }
+        /// <summary>
+        ///     This API supports the ASP.NET Core Identity default UI infrastructure and is not intended to be used
+        ///     directly from your code. This API may change or be removed in future releases.
+        /// </summary>
+        public string LastName { get; set; }
+        /// <summary>
+        ///     This API supports the ASP.NET Core Identity default UI infrastructure and is not intended to be used
+        ///     directly from your code. This API may change or be removed in future releases.
+        /// </summary>
+        public string Username { get; set; }
 
         /// <summary>
         ///     This API supports the ASP.NET Core Identity default UI infrastructure and is not intended to be used
@@ -59,8 +69,17 @@ namespace ScavengeRUs.Areas.Identity.Pages.Account.Manage
             [Phone]
             [Display(Name = "Phone number")]
             public string PhoneNumber { get; set; }
+
+            [Required]
+            [StringLength(25, ErrorMessage = "The {0} must be at least {2} and at max {1} characters long.", MinimumLength = 6)]
             [Display(Name = "Username")]
             public string Username { get; set; }
+
+            [Display(Name = "First name")]
+            public string FirstName { get; set; }
+
+            [Display(Name = "Last name")]
+            public string LastName { get; set; }
         }
 
         private async Task LoadAsync(ApplicationUser user)
@@ -68,13 +87,12 @@ namespace ScavengeRUs.Areas.Identity.Pages.Account.Manage
             var userName = await _userManager.GetUserNameAsync(user);
             var phoneNumber = await _userManager.GetPhoneNumberAsync(user);
 
-            Input = new InputModel
-            {
-                Username = userName
-            };
+            
+            Username = userName;
 
             Input = new InputModel
             {
+                Username = userName,
                 PhoneNumber = phoneNumber
             };
         }
@@ -93,6 +111,7 @@ namespace ScavengeRUs.Areas.Identity.Pages.Account.Manage
 
         public async Task<IActionResult> OnPostAsync()
         {
+           
             var user = await _userManager.GetUserAsync(User);
             if (user == null)
             {
@@ -103,6 +122,27 @@ namespace ScavengeRUs.Areas.Identity.Pages.Account.Manage
             {
                 await LoadAsync(user);
                 return Page();
+            }
+
+            var firstName = user.FirstName;
+            if (Input.FirstName != null)
+            {
+                user.FirstName = Input.FirstName;
+                await _userManager.UpdateAsync(user);
+            }
+
+            var lastName = user.LastName;
+            if (Input.LastName != null)
+            {
+                user.LastName = Input.LastName;
+                await _userManager.UpdateAsync(user);
+            }
+
+            var username = user.Username;
+            if (Input.Username != username)
+            {
+                user.Username = Input.Username;
+                await _userManager.UpdateAsync(user);
             }
 
             var phoneNumber = await _userManager.GetPhoneNumberAsync(user);
