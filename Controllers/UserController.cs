@@ -143,6 +143,26 @@ namespace ScavengeRUs.Controllers
             return View(currentUser);
         }
 
-        
-    }
+        /// <summary>
+        /// Receives image from user input, then saves it to images/users folder.
+        /// </summary>
+        /// <param></param>
+        /// <returns></returns>
+        [HttpPost]
+        public async Task<IActionResult> Profile(IFormFile profileImage)
+        {
+            var currentUser = await _userRepo.ReadAsync(User.Identity?.Name!);
+            if (profileImage != null && profileImage.Length > 0)
+            {
+                var fileName = Path.GetFileName(profileImage.FileName);
+                var filePath = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot", "images", "users", currentUser.UserName + ".jpg");
+
+                using (var stream = new FileStream(filePath, FileMode.Create))
+                {
+                    await profileImage.CopyToAsync(stream);
+                }
+            }
+
+            return RedirectToAction("Profile");
+        }
 }

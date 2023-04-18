@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\School\\source\\repos\\SE1-Team-Scrumptious2\\ScavengeRUs.csproj": {}
+    "C:\\Users\\kylew\\Source\\Repos\\SE1-Team-Scrumptious\\ScavengeRUs.csproj": {}
   },
   "projects": {
-    "C:\\Users\\School\\source\\repos\\SE1-Team-Scrumptious2\\ScavengeRUs.csproj": {
+    "C:\\Users\\kylew\\Source\\Repos\\SE1-Team-Scrumptious\\ScavengeRUs.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\School\\source\\repos\\SE1-Team-Scrumptious2\\ScavengeRUs.csproj",
+        "projectUniqueName": "C:\\Users\\kylew\\Source\\Repos\\SE1-Team-Scrumptious\\ScavengeRUs.csproj",
         "projectName": "ScavengeRUs",
-        "projectPath": "C:\\Users\\School\\source\\repos\\SE1-Team-Scrumptious2\\ScavengeRUs.csproj",
-        "packagesPath": "C:\\Users\\School\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\School\\source\\repos\\SE1-Team-Scrumptious2\\obj\\",
+        "projectPath": "C:\\Users\\kylew\\Source\\Repos\\SE1-Team-Scrumptious\\ScavengeRUs.csproj",
+        "packagesPath": "C:\\Users\\kylew\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\kylew\\Source\\Repos\\SE1-Team-Scrumptious\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\School\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\kylew\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -81,7 +81,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -93,7 +94,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.200\\RuntimeIdentifierGraph.json"
         }
       }
     }

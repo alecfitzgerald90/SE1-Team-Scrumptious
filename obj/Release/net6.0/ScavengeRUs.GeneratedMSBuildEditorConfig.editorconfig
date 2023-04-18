@@ -9,149 +9,161 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = ScavengeRUs
 build_property.RootNamespace = ScavengeRUs
-build_property.ProjectDir = C:\Users\fitzk\source\repos\SE1-Team-Scrumptious\
+build_property.ProjectDir = C:\Users\kylew\Source\Repos\SE1-Team-Scrumptious\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\fitzk\source\repos\SE1-Team-Scrumptious
+build_property.MSBuildProjectDirectory = C:\Users\kylew\Source\Repos\SE1-Team-Scrumptious
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/fitzk/source/repos/SE1-Team-Scrumptious/Areas/Identity/Pages/Account/Login.cshtml]
+[C:/Users/kylew/Source/Repos/SE1-Team-Scrumptious/Areas/Identity/Pages/Account/Login.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxMb2dpbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/fitzk/source/repos/SE1-Team-Scrumptious/Areas/Identity/Pages/Account/Register.cshtml]
+[C:/Users/kylew/Source/Repos/SE1-Team-Scrumptious/Areas/Identity/Pages/Account/Manage/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/kylew/Source/Repos/SE1-Team-Scrumptious/Areas/Identity/Pages/Account/Manage/_ManageNav.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcX01hbmFnZU5hdi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/kylew/Source/Repos/SE1-Team-Scrumptious/Areas/Identity/Pages/Account/Manage/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/kylew/Source/Repos/SE1-Team-Scrumptious/Areas/Identity/Pages/Account/Register.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxSZWdpc3Rlci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/fitzk/source/repos/SE1-Team-Scrumptious/Areas/Identity/Pages/Account/_ViewImports.cshtml]
+[C:/Users/kylew/Source/Repos/SE1-Team-Scrumptious/Areas/Identity/Pages/Account/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxfVmlld0ltcG9ydHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/fitzk/source/repos/SE1-Team-Scrumptious/Areas/Identity/Pages/_ValidationScriptsPartial.cshtml]
+[C:/Users/kylew/Source/Repos/SE1-Team-Scrumptious/Areas/Identity/Pages/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZhbGlkYXRpb25TY3JpcHRzUGFydGlhbC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/fitzk/source/repos/SE1-Team-Scrumptious/Areas/Identity/Pages/_ViewImports.cshtml]
+[C:/Users/kylew/Source/Repos/SE1-Team-Scrumptious/Areas/Identity/Pages/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/fitzk/source/repos/SE1-Team-Scrumptious/Areas/Identity/Pages/_ViewStart.cshtml]
+[C:/Users/kylew/Source/Repos/SE1-Team-Scrumptious/Areas/Identity/Pages/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/fitzk/source/repos/SE1-Team-Scrumptious/Views/Home/Index.cshtml]
+[C:/Users/kylew/Source/Repos/SE1-Team-Scrumptious/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/fitzk/source/repos/SE1-Team-Scrumptious/Views/Home/LogIn.cshtml]
+[C:/Users/kylew/Source/Repos/SE1-Team-Scrumptious/Views/Home/LogIn.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxMb2dJbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/fitzk/source/repos/SE1-Team-Scrumptious/Views/Home/Privacy.cshtml]
+[C:/Users/kylew/Source/Repos/SE1-Team-Scrumptious/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/fitzk/source/repos/SE1-Team-Scrumptious/Views/Hunt/AddPlayerToHunt.cshtml]
+[C:/Users/kylew/Source/Repos/SE1-Team-Scrumptious/Views/Hunt/AddPlayerToHunt.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSHVudFxBZGRQbGF5ZXJUb0h1bnQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/fitzk/source/repos/SE1-Team-Scrumptious/Views/Hunt/Create.cshtml]
+[C:/Users/kylew/Source/Repos/SE1-Team-Scrumptious/Views/Hunt/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSHVudFxDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/fitzk/source/repos/SE1-Team-Scrumptious/Views/Hunt/Delete.cshtml]
+[C:/Users/kylew/Source/Repos/SE1-Team-Scrumptious/Views/Hunt/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSHVudFxEZWxldGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/fitzk/source/repos/SE1-Team-Scrumptious/Views/Hunt/Index.cshtml]
+[C:/Users/kylew/Source/Repos/SE1-Team-Scrumptious/Views/Hunt/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSHVudFxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/fitzk/source/repos/SE1-Team-Scrumptious/Views/Hunt/ManageTasks.cshtml]
+[C:/Users/kylew/Source/Repos/SE1-Team-Scrumptious/Views/Hunt/ManageTasks.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSHVudFxNYW5hZ2VUYXNrcy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/fitzk/source/repos/SE1-Team-Scrumptious/Views/Hunt/RemoveUser.cshtml]
+[C:/Users/kylew/Source/Repos/SE1-Team-Scrumptious/Views/Hunt/RemoveUser.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSHVudFxSZW1vdmVVc2VyLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/fitzk/source/repos/SE1-Team-Scrumptious/Views/Hunt/ViewPlayers.cshtml]
+[C:/Users/kylew/Source/Repos/SE1-Team-Scrumptious/Views/Hunt/ViewPlayers.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSHVudFxWaWV3UGxheWVycy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/fitzk/source/repos/SE1-Team-Scrumptious/Views/Hunt/ViewTasks.cshtml]
+[C:/Users/kylew/Source/Repos/SE1-Team-Scrumptious/Views/Hunt/ViewTasks.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSHVudFxWaWV3VGFza3MuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/fitzk/source/repos/SE1-Team-Scrumptious/Views/Locations/Create.cshtml]
+[C:/Users/kylew/Source/Repos/SE1-Team-Scrumptious/Views/Locations/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9jYXRpb25zXENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/fitzk/source/repos/SE1-Team-Scrumptious/Views/Locations/Delete.cshtml]
+[C:/Users/kylew/Source/Repos/SE1-Team-Scrumptious/Views/Locations/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9jYXRpb25zXERlbGV0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/fitzk/source/repos/SE1-Team-Scrumptious/Views/Locations/Details.cshtml]
+[C:/Users/kylew/Source/Repos/SE1-Team-Scrumptious/Views/Locations/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9jYXRpb25zXERldGFpbHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/fitzk/source/repos/SE1-Team-Scrumptious/Views/Locations/Edit.cshtml]
+[C:/Users/kylew/Source/Repos/SE1-Team-Scrumptious/Views/Locations/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9jYXRpb25zXEVkaXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/fitzk/source/repos/SE1-Team-Scrumptious/Views/Locations/Index.cshtml]
+[C:/Users/kylew/Source/Repos/SE1-Team-Scrumptious/Views/Locations/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9jYXRpb25zXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/fitzk/source/repos/SE1-Team-Scrumptious/Views/Questions/Index.cshtml]
+[C:/Users/kylew/Source/Repos/SE1-Team-Scrumptious/Views/Questions/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUXVlc3Rpb25zXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/fitzk/source/repos/SE1-Team-Scrumptious/Views/Shared/Error.cshtml]
+[C:/Users/kylew/Source/Repos/SE1-Team-Scrumptious/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/fitzk/source/repos/SE1-Team-Scrumptious/Views/Shared/_LoginPartial.cshtml]
+[C:/Users/kylew/Source/Repos/SE1-Team-Scrumptious/Views/Shared/_LoginPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Mb2dpblBhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/fitzk/source/repos/SE1-Team-Scrumptious/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/kylew/Source/Repos/SE1-Team-Scrumptious/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/fitzk/source/repos/SE1-Team-Scrumptious/Views/User/Create.cshtml]
+[C:/Users/kylew/Source/Repos/SE1-Team-Scrumptious/Views/User/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/fitzk/source/repos/SE1-Team-Scrumptious/Views/User/Delete.cshtml]
+[C:/Users/kylew/Source/Repos/SE1-Team-Scrumptious/Views/User/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxEZWxldGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/fitzk/source/repos/SE1-Team-Scrumptious/Views/User/Details.cshtml]
+[C:/Users/kylew/Source/Repos/SE1-Team-Scrumptious/Views/User/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxEZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/fitzk/source/repos/SE1-Team-Scrumptious/Views/User/Edit.cshtml]
+[C:/Users/kylew/Source/Repos/SE1-Team-Scrumptious/Views/User/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/fitzk/source/repos/SE1-Team-Scrumptious/Views/User/Manage.cshtml]
+[C:/Users/kylew/Source/Repos/SE1-Team-Scrumptious/Views/User/Manage.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxNYW5hZ2UuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/fitzk/source/repos/SE1-Team-Scrumptious/Views/User/Profile.cshtml]
+[C:/Users/kylew/Source/Repos/SE1-Team-Scrumptious/Views/User/Profile.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxQcm9maWxlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/fitzk/source/repos/SE1-Team-Scrumptious/Views/_ViewImports.cshtml]
+[C:/Users/kylew/Source/Repos/SE1-Team-Scrumptious/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/fitzk/source/repos/SE1-Team-Scrumptious/Views/_ViewStart.cshtml]
+[C:/Users/kylew/Source/Repos/SE1-Team-Scrumptious/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/fitzk/source/repos/SE1-Team-Scrumptious/Views/Shared/_Layout.cshtml]
+[C:/Users/kylew/Source/Repos/SE1-Team-Scrumptious/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-nlslvm4gq4

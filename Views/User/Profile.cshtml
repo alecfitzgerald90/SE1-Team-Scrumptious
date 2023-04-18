@@ -1,22 +1,38 @@
 ﻿<!--This is the profile for the logged in user. It
 displays their name, profile picture and username-->
 @model ScavengeRUs.Models.Entities.ApplicationUser
+@using Microsoft.AspNetCore.Hosting
+@inject IWebHostEnvironment env
 
 @{
     ViewData["Title"] = "Profile";
 }
 
 <h1>@Model.FirstName @Model.LastName</h1>
-<p>placeholder for profile picture</p>
 
-    
+@if (System.IO.File.Exists(System.IO.Path.Combine(env.WebRootPath, "images", "users", Model.UserName + ".jpg")))
+{
+    <img src="@Url.Content("~/images/users/" + Model.UserName + ".jpg")" alt="Profile Picture" width="100" />
+}
+else
+{
+    <img src="@Url.Content("~/images/users/default.jpg")" alt="Profile Picture" width="100" />
+}
+
+<form method="post" enctype="multipart/form-data">
+    <label for="imageInput">Upload Image:</label>
+    <input type="file" id="imageInput" name="profileImage">
+    <br>
+    <input type="submit" value="Save Image">
+</form>
+
 <div>
     <hr />
     <dl class="row">
-        <dt class = "col-sm-2">
+        <dt class="col-sm-2">
             <p>Username:</p>
         </dt>
-        <dd class = "col-sm-10">
+        <dd class="col-sm-10">
             @Html.DisplayFor(model => model.Username)
         </dd>
     </dl>
