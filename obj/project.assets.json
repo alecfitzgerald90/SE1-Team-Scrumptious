@@ -10704,24 +10704,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Jesse\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\eglas\\.nuget\\packages\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Jesse\\Source\\Repos\\SE1-Team-Scrumptious\\ScavengeRUs.csproj",
+      "projectUniqueName": "D:\\Users\\eglas\\Source\\Repos\\SE1-Team-Scrumptious\\ScavengeRUs.csproj",
       "projectName": "ScavengeRUs",
-      "projectPath": "C:\\Users\\Jesse\\Source\\Repos\\SE1-Team-Scrumptious\\ScavengeRUs.csproj",
-      "packagesPath": "C:\\Users\\Jesse\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Jesse\\Source\\Repos\\SE1-Team-Scrumptious\\obj\\",
+      "projectPath": "D:\\Users\\eglas\\Source\\Repos\\SE1-Team-Scrumptious\\ScavengeRUs.csproj",
+      "packagesPath": "C:\\Users\\eglas\\.nuget\\packages\\",
+      "outputPath": "D:\\Users\\eglas\\Source\\Repos\\SE1-Team-Scrumptious\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\Jesse\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Users\\eglas\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -10729,7 +10728,6 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -10798,7 +10796,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
       }
     }
   }
