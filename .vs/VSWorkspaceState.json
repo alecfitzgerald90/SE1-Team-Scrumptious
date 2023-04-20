@@ -2,6 +2,7 @@
   "ExpandedNodes": [
     "",
     "\\Views",
+    "\\Views\\Home",
     "\\Views\\Shared"
   ],
   "SelectedNode": "\\Views\\Shared\\_LoginPartial.cshtml",
