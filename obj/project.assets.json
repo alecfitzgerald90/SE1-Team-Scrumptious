@@ -10704,19 +10704,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\fitzk\\.nuget\\packages\\": {}
+    "C:\\Users\\eglas\\.nuget\\packages\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\fitzk\\OneDrive\\Desktop\\Software Engineer\\BucHunt-Master\\BucHunt-Master\\ScavengeRUs\\ScavengeRUs.csproj",
+      "projectUniqueName": "D:\\Users\\eglas\\Source\\Repos\\SE1-Team-Scrumptious\\ScavengeRUs.csproj",
       "projectName": "ScavengeRUs",
-      "projectPath": "C:\\Users\\fitzk\\OneDrive\\Desktop\\Software Engineer\\BucHunt-Master\\BucHunt-Master\\ScavengeRUs\\ScavengeRUs.csproj",
-      "packagesPath": "C:\\Users\\fitzk\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\fitzk\\OneDrive\\Desktop\\Software Engineer\\BucHunt-Master\\BucHunt-Master\\ScavengeRUs\\obj\\",
+      "projectPath": "D:\\Users\\eglas\\Source\\Repos\\SE1-Team-Scrumptious\\ScavengeRUs.csproj",
+      "packagesPath": "C:\\Users\\eglas\\.nuget\\packages\\",
+      "outputPath": "D:\\Users\\eglas\\Source\\Repos\\SE1-Team-Scrumptious\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      ],
       "configFilePaths": [
-        "C:\\Users\\fitzk\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\eglas\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -10784,24 +10788,6 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "downloadDependencies": [
-          {
-            "name": "Microsoft.AspNetCore.App.Ref",
-            "version": "[6.0.13, 6.0.13]"
-          },
-          {
-            "name": "Microsoft.NETCore.App.Host.win-x64",
-            "version": "[6.0.13, 6.0.13]"
-          },
-          {
-            "name": "Microsoft.NETCore.App.Ref",
-            "version": "[6.0.13, 6.0.13]"
-          },
-          {
-            "name": "Microsoft.WindowsDesktop.App.Ref",
-            "version": "[6.0.13, 6.0.13]"
-          }
-        ],
         "frameworkReferences": {
           "Microsoft.AspNetCore.App": {
             "privateAssets": "none"
@@ -10810,7 +10796,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
       }
     }
   }
