@@ -1,24 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\173g1\\Source\\Repos\\SE1-Team-Scrumptious\\ScavengeRUs.csproj": {}
+    "C:\\Users\\KhanhPham\\source\\repos\\SE1-Team-Scrumptious\\ScavengeRUs.csproj": {}
   },
   "projects": {
-    "C:\\Users\\173g1\\Source\\Repos\\SE1-Team-Scrumptious\\ScavengeRUs.csproj": {
+    "C:\\Users\\KhanhPham\\source\\repos\\SE1-Team-Scrumptious\\ScavengeRUs.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\173g1\\Source\\Repos\\SE1-Team-Scrumptious\\ScavengeRUs.csproj",
+        "projectUniqueName": "C:\\Users\\KhanhPham\\source\\repos\\SE1-Team-Scrumptious\\ScavengeRUs.csproj",
         "projectName": "ScavengeRUs",
-        "projectPath": "C:\\Users\\173g1\\Source\\Repos\\SE1-Team-Scrumptious\\ScavengeRUs.csproj",
-        "packagesPath": "C:\\Users\\173g1\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\173g1\\Source\\Repos\\SE1-Team-Scrumptious\\obj\\",
+        "projectPath": "C:\\Users\\KhanhPham\\source\\repos\\SE1-Team-Scrumptious\\ScavengeRUs.csproj",
+        "packagesPath": "C:\\Users\\KhanhPham\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\KhanhPham\\source\\repos\\SE1-Team-Scrumptious\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "D:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\173g1\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\KhanhPham\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -26,7 +22,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -82,8 +77,7 @@
             "net47",
             "net471",
             "net472",
-            "net48",
-            "net481"
+            "net48"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -95,7 +89,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.102\\RuntimeIdentifierGraph.json"
         }
       }
     }
