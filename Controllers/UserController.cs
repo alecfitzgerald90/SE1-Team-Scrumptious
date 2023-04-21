@@ -60,14 +60,32 @@ namespace ScavengeRUs.Controllers
         /// <param name="user"></param>
         /// <returns></returns>
         [HttpPost]
-        public async Task<IActionResult> Edit(ApplicationUser user)
+        public async Task<IActionResult> Edit(ApplicationUser user, IFormFile profileImage)
         {
+            // ModelState.IsValid seems to break when I add "IFormFile profileImage"
+            /*
             if (ModelState.IsValid)
             {
                 await _userRepo.UpdateAsync(user.Id, user);
                 return RedirectToAction("Manage");
             }
-            return View(user);
+            */
+
+            var currentUser = await _userRepo.ReadAsync(user.Id);
+            if (profileImage != null && profileImage.Length > 0)
+            {
+                var fileName = Path.GetFileName(profileImage.FileName);
+                var filePath = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot", "images", "users", currentUser.UserName + ".jpg");
+
+                using (var stream = new FileStream(filePath, FileMode.Create))
+                {
+                    await profileImage.CopyToAsync(stream);
+                }
+                return RedirectToAction("Manage");
+            }
+            await _userRepo.UpdateAsync(user.Id, user);
+            return RedirectToAction("Manage");
+            //return View(user);
         }
         /// <summary>
         /// This is the landing page to delete a user aka "Are you sure you want to delete user X?"
