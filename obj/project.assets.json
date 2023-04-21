@@ -10994,19 +10994,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\kylew\\.nuget\\packages\\": {}
+    "C:\\Users\\riley\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\kylew\\Source\\Repos\\SE1-Team-Scrumptious\\ScavengeRUs.csproj",
+      "projectUniqueName": "C:\\Users\\riley\\OneDrive\\New folder\\Documents\\SE1_Project\\Sprint3.2\\ScavengeRUs.csproj",
       "projectName": "ScavengeRUs",
-      "projectPath": "C:\\Users\\kylew\\Source\\Repos\\SE1-Team-Scrumptious\\ScavengeRUs.csproj",
-      "packagesPath": "C:\\Users\\kylew\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\kylew\\Source\\Repos\\SE1-Team-Scrumptious\\obj\\",
+      "projectPath": "C:\\Users\\riley\\OneDrive\\New folder\\Documents\\SE1_Project\\Sprint3.2\\ScavengeRUs.csproj",
+      "packagesPath": "C:\\Users\\riley\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\riley\\OneDrive\\New folder\\Documents\\SE1_Project\\Sprint3.2\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\kylew\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\riley\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
