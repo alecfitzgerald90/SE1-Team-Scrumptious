@@ -237,6 +237,8 @@ namespace ScavengeRUs.Controllers
             if (answer != null && answer.Equals(location?.Answer, StringComparison.OrdinalIgnoreCase))      //check is answer matches
             {
                 currentUser?.TasksCompleted!.Add(location); //Update the players completed tasks
+                currentUser!.UserScore += 1;
+
                 await _context.SaveChangesAsync();          
                 return Json(new { success = true});
             }

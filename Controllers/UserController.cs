@@ -142,5 +142,7 @@ namespace ScavengeRUs.Controllers
             var currentUser = await _userRepo.ReadAsync(User.Identity?.Name!);
             return View(currentUser);
         }
+        
+
     }
 }
