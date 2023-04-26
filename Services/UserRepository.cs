@@ -140,6 +140,7 @@ namespace ScavengeRUs.Services
                 userToUpdate.FirstName = user.FirstName;
                 userToUpdate.LastName = user.LastName;
                 userToUpdate.PhoneNumber = user.PhoneNumber;
+                
                 // await RemoveUserFromRoleAsync(username, userToUpdate.Role);
                 userToUpdate.Roles.Add(user.Roles.First());
                 await AssignUserToRoleAsync(username, user.Roles.First());

@@ -1,23 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Users\\eglas\\Source\\Repos\\SE1-Team-Scrumptious\\ScavengeRUs.csproj": {}
+    "C:\\Users\\Jesse\\Desktop\\College Stuffs\\SoftEngi\\SE1-Team-Scrumptious\\ScavengeRUs.csproj": {}
   },
   "projects": {
-    "D:\\Users\\eglas\\Source\\Repos\\SE1-Team-Scrumptious\\ScavengeRUs.csproj": {
+    "C:\\Users\\Jesse\\Desktop\\College Stuffs\\SoftEngi\\SE1-Team-Scrumptious\\ScavengeRUs.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Users\\eglas\\Source\\Repos\\SE1-Team-Scrumptious\\ScavengeRUs.csproj",
+        "projectUniqueName": "C:\\Users\\Jesse\\Desktop\\College Stuffs\\SoftEngi\\SE1-Team-Scrumptious\\ScavengeRUs.csproj",
         "projectName": "ScavengeRUs",
-        "projectPath": "D:\\Users\\eglas\\Source\\Repos\\SE1-Team-Scrumptious\\ScavengeRUs.csproj",
-        "packagesPath": "C:\\Users\\eglas\\.nuget\\packages\\",
-        "outputPath": "D:\\Users\\eglas\\Source\\Repos\\SE1-Team-Scrumptious\\obj\\",
+        "projectPath": "C:\\Users\\Jesse\\Desktop\\College Stuffs\\SoftEngi\\SE1-Team-Scrumptious\\ScavengeRUs.csproj",
+        "packagesPath": "C:\\Users\\Jesse\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Jesse\\Desktop\\College Stuffs\\SoftEngi\\SE1-Team-Scrumptious\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\eglas\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Jesse\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -71,7 +72,7 @@
             },
             "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
               "target": "Package",
-              "version": "[6.0.10, )"
+              "version": "[6.0.13, )"
             }
           },
           "imports": [
@@ -93,7 +94,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
         }
       }
     }
