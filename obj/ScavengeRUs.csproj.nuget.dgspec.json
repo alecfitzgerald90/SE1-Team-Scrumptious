@@ -11,7 +11,7 @@
         "projectName": "ScavengeRUs",
         "projectPath": "D:\\Users\\eglas\\source\\repos\\SE1-Team-Scrumptious\\ScavengeRUs.csproj",
         "packagesPath": "C:\\Users\\eglas\\.nuget\\packages\\",
-        "outputPath": "D:\\Users\\eglas\\source\\repos\\SE1-Team-Scrumptious\\obj\\",
+        "outputPath": "D:\\Users\\eglas\\Source\\Repos\\SE1-Team-Scrumptious\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

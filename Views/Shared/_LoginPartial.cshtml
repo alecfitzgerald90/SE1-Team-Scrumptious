@@ -1,42 +1,44 @@
 ﻿@using Microsoft.AspNetCore.Identity
 @using ScavengeRUs.Services
 @inject SignInManager<ApplicationUser> SignInManager
-    @inject UserManager<ApplicationUser> UserManager
-        @inject IUserRepository userRepo
-        <ul class="navbar-nav">
-            @if (SignInManager.IsSignedIn(User))
-{
-    var user = await userRepo.ReadAsync(User.Identity?.Name!);
-    var fullName = $"{user!.FirstName} {user!.LastName}";
+@inject UserManager<ApplicationUser> UserManager
+@inject IUserRepository userRepo
 
-            <li class="nav-item">
-                <a class="nav-link text-dark">Hello @fullName!</a>
-            </li>
+<ul class="navbar-nav">
 
-            <li class="nav-item">
-                <a class="nav-link text-dark" asp-area="Identity" asp-page="/Account/Manage/Index" title="Manage">Account</a>
-            </li>
+    @{
+        
+    }
+   
+@if (SignInManager.IsSignedIn(User))
+    {
 
-            <li class="nav-item">
-                @if (User.IsInRole("Admin"))
+        var user = await userRepo.ReadAsync(User.Identity?.Name!);
+        var fullName = $"{User.Identity?.Name}";
+
+        <li class="nav-item">
+        <a  class="nav-link text-dark" asp-area="Identity" asp-page="/Account/Manage/Index" title="Manage">Hello @fullName!</a>
+    </li>
+    <li class="nav-item">
+            @if (User.IsInRole("Admin"))
             {
                 <a class="nav-link text-dark" asp-controller="User" asp-action="Manage" title="Manage">Admin Portal</a>
             }
-            </li>
+        </li>
 
-            <li class="nav-item">
-                <form class="" asp-area="Identity" asp-page="/Account/Logout" asp-route-returnUrl="@Url.Action("Index", "Home", new { area = "" })">
-                    <button type="submit" class="nav-link btn btn-link text-dark">Logout</button>
-                </form>
-            </li>
-}
-else
-{
-            @*    <li class="nav-item">
-                    <a class="nav-link text-dark" asp-area="Identity" asp-page="/Account/Register">Register</a>
-                </li>*@
-            <li class="nav-item">
-                <a class="nav-link text-dark" asp-area="Identity" asp-page="/Account/Login">Login</a>
-            </li>
-}
-        </ul>
+        <li class="nav-item">
+            <form class="" asp-area="Identity" asp-page="/Account/Logout" asp-route-returnUrl="@Url.Action("Index", "Home", new { area = "" })">
+                <button type="submit" class="nav-link btn btn-link text-dark">Logout</button>
+            </form>
+        </li>
+    }
+    else
+    {
+        @*    <li class="nav-item">
+    <a class="nav-link text-dark" asp-area="Identity" asp-page="/Account/Register">Register</a>
+    </li>*@
+        <li class="nav-item">
+            <a class="nav-link text-dark" asp-area="Identity" asp-page="/Account/Login">Login</a>
+        </li>
+    }
+</ul>
