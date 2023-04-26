@@ -3,6 +3,7 @@
 @inject SignInManager<ApplicationUser> SignInManager
 @inject UserManager<ApplicationUser> UserManager
 @inject IUserRepository userRepo
+
 <ul class="navbar-nav">
     @if (SignInManager.IsSignedIn(User))
     {
@@ -20,6 +21,20 @@
             <a class="nav-link text-dark" asp-area="Identity" asp-page="/Account/Manage/Index" title="Manage">Account!</a>
         </li>
         <li class="nav-item">
+
+    @{
+        
+    }
+   
+@if (SignInManager.IsSignedIn(User))
+    {
+        var user = await userRepo.ReadAsync(User.Identity?.Name!);
+        var fullName = $"{User.Identity?.Name}";
+
+        <li class="nav-item">
+        <a  class="nav-link text-dark" asp-area="Identity" asp-page="/Account/Manage/Index" title="Manage">Hello @fullName!</a>
+    </li>
+    <li class="nav-item">
             @if (User.IsInRole("Admin"))
             {
                 <a class="nav-link text-dark" asp-controller="User" asp-action="Manage" title="Manage">Admin Portal</a>

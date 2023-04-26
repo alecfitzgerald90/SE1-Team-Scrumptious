@@ -141,6 +141,8 @@ namespace ScavengeRUs.Areas.Identity.Pages.Account.Manage
             var username = user.Username;
             if (Input.Username != username)
             {
+                
+                user.UserName = Input.Username;
                 user.Username = Input.Username;
                 await _userManager.UpdateAsync(user);
             }
