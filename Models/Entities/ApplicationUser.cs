@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNetCore.Identity;
+using System;
 using System.ComponentModel;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
@@ -12,6 +13,11 @@ namespace ScavengeRUs.Models.Entities
     /// </summary>
     public class ApplicationUser : IdentityUser
     {
+        [Required]
+        [DisplayName("Username")]
+        [StringLength(50)]
+        public string? Username { get; set; }
+
         [Required]
         [DisplayName("First Name")]
         [StringLength(50)]

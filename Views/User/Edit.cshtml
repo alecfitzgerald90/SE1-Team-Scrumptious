@@ -2,8 +2,10 @@
 @using ScavengeRUs.Models.Enums
 @using Microsoft.AspNetCore.Identity
 @inject UserManager<ApplicationUser> UserManager
+
 @{
     ViewData["Title"] = "Edit";
+    var user = await UserManager.GetUserAsync(User);
 }
 
 <h1>Editing @Model.FirstName @Model.LastName's account</h1>
@@ -37,7 +39,7 @@
                 </select>
                 <span asp-validation-for="Roles" class="text-danger"></span>
             </div>
-            @if(User.Identity != null && User.Identity.Name == Model.Email)
+            @if (User.Identity != null && User.Identity.Name == Model.Email)
             {
                 <p>You must logout for changes to take effect.</p>
             }
@@ -47,6 +49,11 @@
         </form>
     </div>
 </div>
+
+@{
+    //Model.Username = user.UserName;
+
+}
 
 <div>
     <a asp-action="Manage">Back to List</a>

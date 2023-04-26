@@ -1,0 +1,57 @@
+﻿<Properties StartupConfiguration="{9FE20B21-22CE-493D-B9DA-DCF03C06EF15}|Default" GitUserInfo="UsingGIT">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Views/User/Edit.cshtml">
+    <Files>
+      <File FileName="Views/User/Delete.cshtml" Line="1" Column="1" />
+      <File FileName="Views/User/Details.cshtml" Line="1" Column="1" />
+      <File FileName="Views/Shared/_LoginPartial.cshtml" Line="17" Column="49" />
+      <File FileName="Areas/Identity/Pages/Account/Manage/Index.cshtml.cs" Line="70" Column="39" />
+      <File FileName="Areas/Identity/Pages/Account/Manage/Index.cshtml" Line="6" Column="5" />
+      <File FileName="Views/User/Edit.cshtml" Line="44" Column="26" />
+      <File FileName="Views/User/Profile.cshtml" Line="8" Column="35" />
+      <File FileName="Models/Entities/ApplicationUser.cs" Line="5" Column="52" />
+      <File FileName="Views/User/Manage.cshtml" Line="18" Column="47" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="ScavengeRUs" expanded="True">
+            <Node name="ScavengeRUs" expanded="True">
+              <Node name="Dependencies" expanded="True" />
+              <Node name="Areas" expanded="True">
+                <Node name="Identity" expanded="True">
+                  <Node name="Pages" expanded="True">
+                    <Node name="Account" expanded="True">
+                      <Node name="Manage" expanded="True">
+                        <Node name="Index.cshtml" expanded="True" />
+                      </Node>
+                      <Node name="Login.cshtml" expanded="True" />
+                    </Node>
+                  </Node>
+                </Node>
+              </Node>
+              <Node name="Models" expanded="True">
+                <Node name="Entities" expanded="True" />
+                <Node name="Enums" expanded="True" />
+              </Node>
+              <Node name="Services" expanded="True" />
+              <Node name="Views" expanded="True">
+                <Node name="Home" expanded="True" />
+                <Node name="Locations" expanded="True" />
+                <Node name="Questions" expanded="True" />
+                <Node name="Shared" expanded="True" />
+                <Node name="User" expanded="True">
+                  <Node name="Edit.cshtml" selected="True" />
+                </Node>
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.ScavengeRUs PreferredExecutionTarget="/Applications/Google Chrome.app" />
+</Properties>

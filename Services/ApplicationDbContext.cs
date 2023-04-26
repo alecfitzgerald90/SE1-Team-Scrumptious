@@ -15,7 +15,7 @@ namespace ScavengeRUs.Data
             : base(options)
         {
         }
-
+       
         public DbSet<Location> Location => Set<Location>();
         public DbSet<Hunt> Hunts => Set<Hunt>();
         public DbSet<HuntLocation> HuntLocation => Set<HuntLocation>();

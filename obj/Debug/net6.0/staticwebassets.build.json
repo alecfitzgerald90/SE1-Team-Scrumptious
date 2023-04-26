@@ -8,7 +8,7 @@
   "ReferencedProjectsConfiguration": [],
   "DiscoveryPatterns": [
     {
-      "Name": "ScavengeRUs\\wwwroot",
+      "Name": "ScavengeRUs/wwwroot",
       "Source": "ScavengeRUs",
       "ContentRoot": "D:\\Users\\eglas\\Source\\Repos\\SE1-Team-Scrumptious\\wwwroot\\",
       "BasePath": "_content/ScavengeRUs",
@@ -73,7 +73,7 @@
       "SourceType": "Package",
       "ContentRoot": "C:\\Users\\eglas\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.10\\staticwebassets\\V5\\",
       "BasePath": "Identity",
-      "RelativePath": "lib/bootstrap/dist/css/bootstrap.css",
+      "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -90,7 +90,7 @@
       "SourceType": "Package",
       "ContentRoot": "C:\\Users\\eglas\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.10\\staticwebassets\\V5\\",
       "BasePath": "Identity",
-      "RelativePath": "lib/bootstrap/dist/css/bootstrap.css.map",
+      "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css.map",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -107,7 +107,7 @@
       "SourceType": "Package",
       "ContentRoot": "C:\\Users\\eglas\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.10\\staticwebassets\\V5\\",
       "BasePath": "Identity",
-      "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css",
+      "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -124,7 +124,7 @@
       "SourceType": "Package",
       "ContentRoot": "C:\\Users\\eglas\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.10\\staticwebassets\\V5\\",
       "BasePath": "Identity",
-      "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css.map",
+      "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css.map",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -141,7 +141,7 @@
       "SourceType": "Package",
       "ContentRoot": "C:\\Users\\eglas\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.10\\staticwebassets\\V5\\",
       "BasePath": "Identity",
-      "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.css",
+      "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -158,7 +158,7 @@
       "SourceType": "Package",
       "ContentRoot": "C:\\Users\\eglas\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.10\\staticwebassets\\V5\\",
       "BasePath": "Identity",
-      "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.css.map",
+      "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -175,7 +175,7 @@
       "SourceType": "Package",
       "ContentRoot": "C:\\Users\\eglas\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.10\\staticwebassets\\V5\\",
       "BasePath": "Identity",
-      "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min.css",
+      "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -192,7 +192,7 @@
       "SourceType": "Package",
       "ContentRoot": "C:\\Users\\eglas\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.10\\staticwebassets\\V5\\",
       "BasePath": "Identity",
-      "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min.css.map",
+      "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -209,7 +209,7 @@
       "SourceType": "Package",
       "ContentRoot": "C:\\Users\\eglas\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.10\\staticwebassets\\V5\\",
       "BasePath": "Identity",
-      "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css",
+      "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -226,7 +226,7 @@
       "SourceType": "Package",
       "ContentRoot": "C:\\Users\\eglas\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.10\\staticwebassets\\V5\\",
       "BasePath": "Identity",
-      "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css.map",
+      "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css.map",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -243,7 +243,7 @@
       "SourceType": "Package",
       "ContentRoot": "C:\\Users\\eglas\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.10\\staticwebassets\\V5\\",
       "BasePath": "Identity",
-      "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css",
+      "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -260,7 +260,7 @@
       "SourceType": "Package",
       "ContentRoot": "C:\\Users\\eglas\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.10\\staticwebassets\\V5\\",
       "BasePath": "Identity",
-      "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css.map",
+      "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css.map",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -277,7 +277,7 @@
       "SourceType": "Package",
       "ContentRoot": "C:\\Users\\eglas\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.10\\staticwebassets\\V5\\",
       "BasePath": "Identity",
-      "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css",
+      "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -294,7 +294,7 @@
       "SourceType": "Package",
       "ContentRoot": "C:\\Users\\eglas\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.10\\staticwebassets\\V5\\",
       "BasePath": "Identity",
-      "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map",
+      "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -311,7 +311,7 @@
       "SourceType": "Package",
       "ContentRoot": "C:\\Users\\eglas\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.10\\staticwebassets\\V5\\",
       "BasePath": "Identity",
-      "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css",
+      "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -328,7 +328,7 @@
       "SourceType": "Package",
       "ContentRoot": "C:\\Users\\eglas\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.10\\staticwebassets\\V5\\",
       "BasePath": "Identity",
-      "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map",
+      "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -345,7 +345,7 @@
       "SourceType": "Package",
       "ContentRoot": "C:\\Users\\eglas\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.10\\staticwebassets\\V5\\",
       "BasePath": "Identity",
-      "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css",
+      "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.css",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -362,7 +362,7 @@
       "SourceType": "Package",
       "ContentRoot": "C:\\Users\\eglas\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.10\\staticwebassets\\V5\\",
       "BasePath": "Identity",
-      "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css.map",
+      "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.css.map",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -379,7 +379,7 @@
       "SourceType": "Package",
       "ContentRoot": "C:\\Users\\eglas\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.10\\staticwebassets\\V5\\",
       "BasePath": "Identity",
-      "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css",
+      "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min.css",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -396,7 +396,7 @@
       "SourceType": "Package",
       "ContentRoot": "C:\\Users\\eglas\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.10\\staticwebassets\\V5\\",
       "BasePath": "Identity",
-      "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css.map",
+      "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min.css.map",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -413,7 +413,7 @@
       "SourceType": "Package",
       "ContentRoot": "C:\\Users\\eglas\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.10\\staticwebassets\\V5\\",
       "BasePath": "Identity",
-      "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css",
+      "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -430,7 +430,7 @@
       "SourceType": "Package",
       "ContentRoot": "C:\\Users\\eglas\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.10\\staticwebassets\\V5\\",
       "BasePath": "Identity",
-      "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map",
+      "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -447,7 +447,7 @@
       "SourceType": "Package",
       "ContentRoot": "C:\\Users\\eglas\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.10\\staticwebassets\\V5\\",
       "BasePath": "Identity",
-      "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css",
+      "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -464,7 +464,7 @@
       "SourceType": "Package",
       "ContentRoot": "C:\\Users\\eglas\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.10\\staticwebassets\\V5\\",
       "BasePath": "Identity",
-      "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map",
+      "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -481,7 +481,7 @@
       "SourceType": "Package",
       "ContentRoot": "C:\\Users\\eglas\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.10\\staticwebassets\\V5\\",
       "BasePath": "Identity",
-      "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.css",
+      "RelativePath": "lib/bootstrap/dist/css/bootstrap.css",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -498,7 +498,7 @@
       "SourceType": "Package",
       "ContentRoot": "C:\\Users\\eglas\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.10\\staticwebassets\\V5\\",
       "BasePath": "Identity",
-      "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.css.map",
+      "RelativePath": "lib/bootstrap/dist/css/bootstrap.css.map",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -515,7 +515,7 @@
       "SourceType": "Package",
       "ContentRoot": "C:\\Users\\eglas\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.10\\staticwebassets\\V5\\",
       "BasePath": "Identity",
-      "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min.css",
+      "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -532,7 +532,7 @@
       "SourceType": "Package",
       "ContentRoot": "C:\\Users\\eglas\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.10\\staticwebassets\\V5\\",
       "BasePath": "Identity",
-      "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min.css.map",
+      "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css.map",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -549,7 +549,7 @@
       "SourceType": "Package",
       "ContentRoot": "C:\\Users\\eglas\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.10\\staticwebassets\\V5\\",
       "BasePath": "Identity",
-      "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css",
+      "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.css",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -566,7 +566,7 @@
       "SourceType": "Package",
       "ContentRoot": "C:\\Users\\eglas\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.10\\staticwebassets\\V5\\",
       "BasePath": "Identity",
-      "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map",
+      "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.css.map",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -583,7 +583,7 @@
       "SourceType": "Package",
       "ContentRoot": "C:\\Users\\eglas\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.10\\staticwebassets\\V5\\",
       "BasePath": "Identity",
-      "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css",
+      "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min.css",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -600,7 +600,7 @@
       "SourceType": "Package",
       "ContentRoot": "C:\\Users\\eglas\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.10\\staticwebassets\\V5\\",
       "BasePath": "Identity",
-      "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map",
+      "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min.css.map",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -838,7 +838,7 @@
       "SourceType": "Package",
       "ContentRoot": "C:\\Users\\eglas\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.10\\staticwebassets\\V5\\",
       "BasePath": "Identity",
-      "RelativePath": "lib/jquery/dist/jquery.js",
+      "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -855,7 +855,7 @@
       "SourceType": "Package",
       "ContentRoot": "C:\\Users\\eglas\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.10\\staticwebassets\\V5\\",
       "BasePath": "Identity",
-      "RelativePath": "lib/jquery/dist/jquery.min.js",
+      "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -872,7 +872,7 @@
       "SourceType": "Package",
       "ContentRoot": "C:\\Users\\eglas\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.10\\staticwebassets\\V5\\",
       "BasePath": "Identity",
-      "RelativePath": "lib/jquery/dist/jquery.min.map",
+      "RelativePath": "lib/jquery-validation-unobtrusive/LICENSE.txt",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -889,7 +889,7 @@
       "SourceType": "Package",
       "ContentRoot": "C:\\Users\\eglas\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.10\\staticwebassets\\V5\\",
       "BasePath": "Identity",
-      "RelativePath": "lib/jquery/LICENSE.txt",
+      "RelativePath": "lib/jquery-validation/dist/additional-methods.js",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -906,7 +906,7 @@
       "SourceType": "Package",
       "ContentRoot": "C:\\Users\\eglas\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.10\\staticwebassets\\V5\\",
       "BasePath": "Identity",
-      "RelativePath": "lib/jquery-validation/dist/additional-methods.js",
+      "RelativePath": "lib/jquery-validation/dist/additional-methods.min.js",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -923,7 +923,7 @@
       "SourceType": "Package",
       "ContentRoot": "C:\\Users\\eglas\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.10\\staticwebassets\\V5\\",
       "BasePath": "Identity",
-      "RelativePath": "lib/jquery-validation/dist/additional-methods.min.js",
+      "RelativePath": "lib/jquery-validation/dist/jquery.validate.js",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -940,7 +940,7 @@
       "SourceType": "Package",
       "ContentRoot": "C:\\Users\\eglas\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.10\\staticwebassets\\V5\\",
       "BasePath": "Identity",
-      "RelativePath": "lib/jquery-validation/dist/jquery.validate.js",
+      "RelativePath": "lib/jquery-validation/dist/jquery.validate.min.js",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -957,7 +957,7 @@
       "SourceType": "Package",
       "ContentRoot": "C:\\Users\\eglas\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.10\\staticwebassets\\V5\\",
       "BasePath": "Identity",
-      "RelativePath": "lib/jquery-validation/dist/jquery.validate.min.js",
+      "RelativePath": "lib/jquery-validation/LICENSE.md",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -974,7 +974,7 @@
       "SourceType": "Package",
       "ContentRoot": "C:\\Users\\eglas\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.10\\staticwebassets\\V5\\",
       "BasePath": "Identity",
-      "RelativePath": "lib/jquery-validation/LICENSE.md",
+      "RelativePath": "lib/jquery/dist/jquery.js",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -991,7 +991,7 @@
       "SourceType": "Package",
       "ContentRoot": "C:\\Users\\eglas\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.10\\staticwebassets\\V5\\",
       "BasePath": "Identity",
-      "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js",
+      "RelativePath": "lib/jquery/dist/jquery.min.js",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -1008,7 +1008,7 @@
       "SourceType": "Package",
       "ContentRoot": "C:\\Users\\eglas\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.10\\staticwebassets\\V5\\",
       "BasePath": "Identity",
-      "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js",
+      "RelativePath": "lib/jquery/dist/jquery.min.map",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -1025,7 +1025,7 @@
       "SourceType": "Package",
       "ContentRoot": "C:\\Users\\eglas\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.10\\staticwebassets\\V5\\",
       "BasePath": "Identity",
-      "RelativePath": "lib/jquery-validation-unobtrusive/LICENSE.txt",
+      "RelativePath": "lib/jquery/LICENSE.txt",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -1042,6 +1042,23 @@
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Users\\eglas\\Source\\Repos\\SE1-Team-Scrumptious\\wwwroot\\",
       "BasePath": "_content/ScavengeRUs",
+      "RelativePath": ".DS_Store",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/.DS_Store"
+    },
+    {
+      "Identity": "/Users/gabrielvramos/SE1-Team-Scrumptious/wwwroot/css/site.css",
+      "SourceId": "ScavengeRUs",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/gabrielvramos/SE1-Team-Scrumptious/wwwroot/",
+      "BasePath": "_content/ScavengeRUs",
       "RelativePath": "css/site.css",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -1051,7 +1068,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\css\\site.css"
+      "OriginalItemSpec": "wwwroot/css/site.css"
     },
     {
       "Identity": "D:\\Users\\eglas\\Source\\Repos\\SE1-Team-Scrumptious\\wwwroot\\favicon.ico",
@@ -1068,7 +1085,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\favicon.ico"
+      "OriginalItemSpec": "wwwroot/favicon.ico"
     },
     {
       "Identity": "D:\\Users\\eglas\\Source\\Repos\\SE1-Team-Scrumptious\\wwwroot\\images\\Administration Building.jpg",
@@ -1085,7 +1102,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\Administration Building.jpg"
+      "OriginalItemSpec": "wwwroot/images/Administration Building.jpg"
     },
     {
       "Identity": "D:\\Users\\eglas\\Source\\Repos\\SE1-Team-Scrumptious\\wwwroot\\images\\Basler Centre for Physical Activity.jpg",
@@ -1102,7 +1119,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\Basler Centre for Physical Activity.jpg"
+      "OriginalItemSpec": "wwwroot/images/Basler Centre for Physical Activity.jpg"
     },
     {
       "Identity": "D:\\Users\\eglas\\Source\\Repos\\SE1-Team-Scrumptious\\wwwroot\\images\\Brown Hall.jpg",
@@ -1119,7 +1136,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\Brown Hall.jpg"
+      "OriginalItemSpec": "wwwroot/images/Brown Hall.jpg"
     },
     {
       "Identity": "D:\\Users\\eglas\\Source\\Repos\\SE1-Team-Scrumptious\\wwwroot\\images\\Burleson Hall.jpg",
@@ -1136,7 +1153,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\Burleson Hall.jpg"
+      "OriginalItemSpec": "wwwroot/images/Burleson Hall.jpg"
     },
     {
       "Identity": "D:\\Users\\eglas\\Source\\Repos\\SE1-Team-Scrumptious\\wwwroot\\images\\Campus.jpg",
@@ -1153,7 +1170,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\Campus.jpg"
+      "OriginalItemSpec": "wwwroot/images/Campus.jpg"
     },
     {
       "Identity": "D:\\Users\\eglas\\Source\\Repos\\SE1-Team-Scrumptious\\wwwroot\\images\\D. P. Culp Centre.jpg",
@@ -1170,7 +1187,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\D. P. Culp Centre.jpg"
+      "OriginalItemSpec": "wwwroot/images/D. P. Culp Centre.jpg"
     },
     {
       "Identity": "D:\\Users\\eglas\\Source\\Repos\\SE1-Team-Scrumptious\\wwwroot\\images\\ETSU Bell Tower.jpg",
@@ -1187,7 +1204,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\ETSU Bell Tower.jpg"
+      "OriginalItemSpec": "wwwroot/images/ETSU Bell Tower.jpg"
     },
     {
       "Identity": "D:\\Users\\eglas\\Source\\Repos\\SE1-Team-Scrumptious\\wwwroot\\images\\Library.jpg",
@@ -1204,7 +1221,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\Library.jpg"
+      "OriginalItemSpec": "wwwroot/images/Library.jpg"
     },
     {
       "Identity": "D:\\Users\\eglas\\Source\\Repos\\SE1-Team-Scrumptious\\wwwroot\\images\\Millenium Centre.jpg",
@@ -1221,7 +1238,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\Millenium Centre.jpg"
+      "OriginalItemSpec": "wwwroot/images/Millenium Centre.jpg"
     },
     {
       "Identity": "D:\\Users\\eglas\\Source\\Repos\\SE1-Team-Scrumptious\\wwwroot\\images\\Rogers Stout.jpg",
@@ -1238,7 +1255,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\Rogers Stout.jpg"
+      "OriginalItemSpec": "wwwroot/images/Rogers Stout.jpg"
     },
     {
       "Identity": "D:\\Users\\eglas\\Source\\Repos\\SE1-Team-Scrumptious\\wwwroot\\images\\Roy S. Nicks Hall.jpg",
@@ -1255,7 +1272,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\Roy S. Nicks Hall.jpg"
+      "OriginalItemSpec": "wwwroot/images/Roy S. Nicks Hall.jpg"
     },
     {
       "Identity": "D:\\Users\\eglas\\Source\\Repos\\SE1-Team-Scrumptious\\wwwroot\\images\\Sam Wilson Hall.jpg",
@@ -1272,7 +1289,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\Sam Wilson Hall.jpg"
+      "OriginalItemSpec": "wwwroot/images/Sam Wilson Hall.jpg"
     },
     {
       "Identity": "D:\\Users\\eglas\\Source\\Repos\\SE1-Team-Scrumptious\\wwwroot\\js\\site.js",
@@ -1289,146 +1306,10 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\js\\site.js"
+      "OriginalItemSpec": "wwwroot/js/site.js"
     },
     {
       "Identity": "D:\\Users\\eglas\\Source\\Repos\\SE1-Team-Scrumptious\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
-      "SourceId": "ScavengeRUs",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\Users\\eglas\\Source\\Repos\\SE1-Team-Scrumptious\\wwwroot\\",
-      "BasePath": "_content/ScavengeRUs",
-      "RelativePath": "lib/bootstrap/dist/css/bootstrap.css",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css"
-    },
-    {
-      "Identity": "D:\\Users\\eglas\\Source\\Repos\\SE1-Team-Scrumptious\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
-      "SourceId": "ScavengeRUs",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\Users\\eglas\\Source\\Repos\\SE1-Team-Scrumptious\\wwwroot\\",
-      "BasePath": "_content/ScavengeRUs",
-      "RelativePath": "lib/bootstrap/dist/css/bootstrap.css.map",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
-    },
-    {
-      "Identity": "D:\\Users\\eglas\\Source\\Repos\\SE1-Team-Scrumptious\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
-      "SourceId": "ScavengeRUs",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\Users\\eglas\\Source\\Repos\\SE1-Team-Scrumptious\\wwwroot\\",
-      "BasePath": "_content/ScavengeRUs",
-      "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
-    },
-    {
-      "Identity": "D:\\Users\\eglas\\Source\\Repos\\SE1-Team-Scrumptious\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
-      "SourceId": "ScavengeRUs",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\Users\\eglas\\Source\\Repos\\SE1-Team-Scrumptious\\wwwroot\\",
-      "BasePath": "_content/ScavengeRUs",
-      "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css.map",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
-    },
-    {
-      "Identity": "D:\\Users\\eglas\\Source\\Repos\\SE1-Team-Scrumptious\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
-      "SourceId": "ScavengeRUs",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\Users\\eglas\\Source\\Repos\\SE1-Team-Scrumptious\\wwwroot\\",
-      "BasePath": "_content/ScavengeRUs",
-      "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.css",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
-    },
-    {
-      "Identity": "D:\\Users\\eglas\\Source\\Repos\\SE1-Team-Scrumptious\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
-      "SourceId": "ScavengeRUs",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\Users\\eglas\\Source\\Repos\\SE1-Team-Scrumptious\\wwwroot\\",
-      "BasePath": "_content/ScavengeRUs",
-      "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.css.map",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
-    },
-    {
-      "Identity": "D:\\Users\\eglas\\Source\\Repos\\SE1-Team-Scrumptious\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
-      "SourceId": "ScavengeRUs",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\Users\\eglas\\Source\\Repos\\SE1-Team-Scrumptious\\wwwroot\\",
-      "BasePath": "_content/ScavengeRUs",
-      "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min.css",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
-    },
-    {
-      "Identity": "D:\\Users\\eglas\\Source\\Repos\\SE1-Team-Scrumptious\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
-      "SourceId": "ScavengeRUs",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\Users\\eglas\\Source\\Repos\\SE1-Team-Scrumptious\\wwwroot\\",
-      "BasePath": "_content/ScavengeRUs",
-      "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min.css.map",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
-    },
-    {
-      "Identity": "D:\\Users\\eglas\\Source\\Repos\\SE1-Team-Scrumptious\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "SourceId": "ScavengeRUs",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Users\\eglas\\Source\\Repos\\SE1-Team-Scrumptious\\wwwroot\\",
@@ -1442,10 +1323,10 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css"
     },
     {
-      "Identity": "D:\\Users\\eglas\\Source\\Repos\\SE1-Team-Scrumptious\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "Identity": "D:\\Users\\eglas\\Source\\Repos\\SE1-Team-Scrumptious\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "SourceId": "ScavengeRUs",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Users\\eglas\\Source\\Repos\\SE1-Team-Scrumptious\\wwwroot\\",
@@ -1459,10 +1340,10 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css.map"
     },
     {
-      "Identity": "D:\\Users\\eglas\\Source\\Repos\\SE1-Team-Scrumptious\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "Identity": "D:\\Users\\eglas\\Source\\Repos\\SE1-Team-Scrumptious\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "SourceId": "ScavengeRUs",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Users\\eglas\\Source\\Repos\\SE1-Team-Scrumptious\\wwwroot\\",
@@ -1476,10 +1357,10 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css"
     },
     {
-      "Identity": "D:\\Users\\eglas\\Source\\Repos\\SE1-Team-Scrumptious\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "Identity": "D:\\Users\\eglas\\Source\\Repos\\SE1-Team-Scrumptious\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "SourceId": "ScavengeRUs",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Users\\eglas\\Source\\Repos\\SE1-Team-Scrumptious\\wwwroot\\",
@@ -1493,10 +1374,10 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css.map"
     },
     {
-      "Identity": "D:\\Users\\eglas\\Source\\Repos\\SE1-Team-Scrumptious\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "Identity": "D:\\Users\\eglas\\Source\\Repos\\SE1-Team-Scrumptious\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
       "SourceId": "ScavengeRUs",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Users\\eglas\\Source\\Repos\\SE1-Team-Scrumptious\\wwwroot\\",
@@ -1510,10 +1391,10 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.css"
     },
     {
-      "Identity": "D:\\Users\\eglas\\Source\\Repos\\SE1-Team-Scrumptious\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "Identity": "D:\\Users\\eglas\\Source\\Repos\\SE1-Team-Scrumptious\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
       "SourceId": "ScavengeRUs",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Users\\eglas\\Source\\Repos\\SE1-Team-Scrumptious\\wwwroot\\",
@@ -1527,10 +1408,10 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map"
     },
     {
-      "Identity": "D:\\Users\\eglas\\Source\\Repos\\SE1-Team-Scrumptious\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "Identity": "D:\\Users\\eglas\\Source\\Repos\\SE1-Team-Scrumptious\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
       "SourceId": "ScavengeRUs",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Users\\eglas\\Source\\Repos\\SE1-Team-Scrumptious\\wwwroot\\",
@@ -1544,10 +1425,10 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css"
     },
     {
-      "Identity": "D:\\Users\\eglas\\Source\\Repos\\SE1-Team-Scrumptious\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "Identity": "D:\\Users\\eglas\\Source\\Repos\\SE1-Team-Scrumptious\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
       "SourceId": "ScavengeRUs",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Users\\eglas\\Source\\Repos\\SE1-Team-Scrumptious\\wwwroot\\",
@@ -1561,10 +1442,10 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map"
     },
     {
-      "Identity": "D:\\Users\\eglas\\Source\\Repos\\SE1-Team-Scrumptious\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "Identity": "D:\\Users\\eglas\\Source\\Repos\\SE1-Team-Scrumptious\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "SourceId": "ScavengeRUs",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Users\\eglas\\Source\\Repos\\SE1-Team-Scrumptious\\wwwroot\\",
@@ -1578,10 +1459,10 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css"
     },
     {
-      "Identity": "D:\\Users\\eglas\\Source\\Repos\\SE1-Team-Scrumptious\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "Identity": "D:\\Users\\eglas\\Source\\Repos\\SE1-Team-Scrumptious\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "SourceId": "ScavengeRUs",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Users\\eglas\\Source\\Repos\\SE1-Team-Scrumptious\\wwwroot\\",
@@ -1595,10 +1476,10 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css.map"
     },
     {
-      "Identity": "D:\\Users\\eglas\\Source\\Repos\\SE1-Team-Scrumptious\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "Identity": "D:\\Users\\eglas\\Source\\Repos\\SE1-Team-Scrumptious\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "SourceId": "ScavengeRUs",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Users\\eglas\\Source\\Repos\\SE1-Team-Scrumptious\\wwwroot\\",
@@ -1612,10 +1493,10 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css"
     },
     {
-      "Identity": "D:\\Users\\eglas\\Source\\Repos\\SE1-Team-Scrumptious\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "Identity": "D:\\Users\\eglas\\Source\\Repos\\SE1-Team-Scrumptious\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "SourceId": "ScavengeRUs",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Users\\eglas\\Source\\Repos\\SE1-Team-Scrumptious\\wwwroot\\",
@@ -1629,10 +1510,10 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css.map"
     },
     {
-      "Identity": "D:\\Users\\eglas\\Source\\Repos\\SE1-Team-Scrumptious\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "Identity": "D:\\Users\\eglas\\Source\\Repos\\SE1-Team-Scrumptious\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
       "SourceId": "ScavengeRUs",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Users\\eglas\\Source\\Repos\\SE1-Team-Scrumptious\\wwwroot\\",
@@ -1646,10 +1527,10 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css"
     },
     {
-      "Identity": "D:\\Users\\eglas\\Source\\Repos\\SE1-Team-Scrumptious\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "Identity": "D:\\Users\\eglas\\Source\\Repos\\SE1-Team-Scrumptious\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
       "SourceId": "ScavengeRUs",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Users\\eglas\\Source\\Repos\\SE1-Team-Scrumptious\\wwwroot\\",
@@ -1663,10 +1544,10 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map"
     },
     {
-      "Identity": "D:\\Users\\eglas\\Source\\Repos\\SE1-Team-Scrumptious\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "Identity": "D:\\Users\\eglas\\Source\\Repos\\SE1-Team-Scrumptious\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
       "SourceId": "ScavengeRUs",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Users\\eglas\\Source\\Repos\\SE1-Team-Scrumptious\\wwwroot\\",
@@ -1680,10 +1561,10 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css"
     },
     {
-      "Identity": "D:\\Users\\eglas\\Source\\Repos\\SE1-Team-Scrumptious\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "Identity": "D:\\Users\\eglas\\Source\\Repos\\SE1-Team-Scrumptious\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
       "SourceId": "ScavengeRUs",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Users\\eglas\\Source\\Repos\\SE1-Team-Scrumptious\\wwwroot\\",
@@ -1697,10 +1578,10 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map"
     },
     {
-      "Identity": "D:\\Users\\eglas\\Source\\Repos\\SE1-Team-Scrumptious\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "Identity": "D:\\Users\\eglas\\Source\\Repos\\SE1-Team-Scrumptious\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "SourceId": "ScavengeRUs",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Users\\eglas\\Source\\Repos\\SE1-Team-Scrumptious\\wwwroot\\",
@@ -1714,10 +1595,10 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.css"
     },
     {
-      "Identity": "D:\\Users\\eglas\\Source\\Repos\\SE1-Team-Scrumptious\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "Identity": "D:\\Users\\eglas\\Source\\Repos\\SE1-Team-Scrumptious\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "SourceId": "ScavengeRUs",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Users\\eglas\\Source\\Repos\\SE1-Team-Scrumptious\\wwwroot\\",
@@ -1731,10 +1612,10 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.css.map"
     },
     {
-      "Identity": "D:\\Users\\eglas\\Source\\Repos\\SE1-Team-Scrumptious\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "Identity": "D:\\Users\\eglas\\Source\\Repos\\SE1-Team-Scrumptious\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "SourceId": "ScavengeRUs",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Users\\eglas\\Source\\Repos\\SE1-Team-Scrumptious\\wwwroot\\",
@@ -1748,10 +1629,10 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.min.css"
     },
     {
-      "Identity": "D:\\Users\\eglas\\Source\\Repos\\SE1-Team-Scrumptious\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "Identity": "D:\\Users\\eglas\\Source\\Repos\\SE1-Team-Scrumptious\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "SourceId": "ScavengeRUs",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Users\\eglas\\Source\\Repos\\SE1-Team-Scrumptious\\wwwroot\\",
@@ -1765,10 +1646,10 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.min.css.map"
     },
     {
-      "Identity": "D:\\Users\\eglas\\Source\\Repos\\SE1-Team-Scrumptious\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "Identity": "D:\\Users\\eglas\\Source\\Repos\\SE1-Team-Scrumptious\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
       "SourceId": "ScavengeRUs",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Users\\eglas\\Source\\Repos\\SE1-Team-Scrumptious\\wwwroot\\",
@@ -1782,10 +1663,10 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css"
     },
     {
-      "Identity": "D:\\Users\\eglas\\Source\\Repos\\SE1-Team-Scrumptious\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "Identity": "D:\\Users\\eglas\\Source\\Repos\\SE1-Team-Scrumptious\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
       "SourceId": "ScavengeRUs",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Users\\eglas\\Source\\Repos\\SE1-Team-Scrumptious\\wwwroot\\",
@@ -1799,10 +1680,10 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map"
     },
     {
-      "Identity": "D:\\Users\\eglas\\Source\\Repos\\SE1-Team-Scrumptious\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "Identity": "D:\\Users\\eglas\\Source\\Repos\\SE1-Team-Scrumptious\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
       "SourceId": "ScavengeRUs",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Users\\eglas\\Source\\Repos\\SE1-Team-Scrumptious\\wwwroot\\",
@@ -1816,10 +1697,10 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css"
     },
     {
-      "Identity": "D:\\Users\\eglas\\Source\\Repos\\SE1-Team-Scrumptious\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "Identity": "D:\\Users\\eglas\\Source\\Repos\\SE1-Team-Scrumptious\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
       "SourceId": "ScavengeRUs",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Users\\eglas\\Source\\Repos\\SE1-Team-Scrumptious\\wwwroot\\",
@@ -1833,7 +1714,143 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Identity": "D:\\Users\\eglas\\Source\\Repos\\SE1-Team-Scrumptious\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "SourceId": "ScavengeRUs",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Users\\eglas\\Source\\Repos\\SE1-Team-Scrumptious\\wwwroot\\",
+      "BasePath": "_content/ScavengeRUs",
+      "RelativePath": "lib/bootstrap/dist/css/bootstrap.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap.css"
+    },
+    {
+      "Identity": "D:\\Users\\eglas\\Source\\Repos\\SE1-Team-Scrumptious\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "SourceId": "ScavengeRUs",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Users\\eglas\\Source\\Repos\\SE1-Team-Scrumptious\\wwwroot\\",
+      "BasePath": "_content/ScavengeRUs",
+      "RelativePath": "lib/bootstrap/dist/css/bootstrap.css.map",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap.css.map"
+    },
+    {
+      "Identity": "D:\\Users\\eglas\\Source\\Repos\\SE1-Team-Scrumptious\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "SourceId": "ScavengeRUs",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Users\\eglas\\Source\\Repos\\SE1-Team-Scrumptious\\wwwroot\\",
+      "BasePath": "_content/ScavengeRUs",
+      "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap.min.css"
+    },
+    {
+      "Identity": "D:\\Users\\eglas\\Source\\Repos\\SE1-Team-Scrumptious\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "SourceId": "ScavengeRUs",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Users\\eglas\\Source\\Repos\\SE1-Team-Scrumptious\\wwwroot\\",
+      "BasePath": "_content/ScavengeRUs",
+      "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css.map",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap.min.css.map"
+    },
+    {
+      "Identity": "D:\\Users\\eglas\\Source\\Repos\\SE1-Team-Scrumptious\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "SourceId": "ScavengeRUs",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Users\\eglas\\Source\\Repos\\SE1-Team-Scrumptious\\wwwroot\\",
+      "BasePath": "_content/ScavengeRUs",
+      "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.css"
+    },
+    {
+      "Identity": "D:\\Users\\eglas\\Source\\Repos\\SE1-Team-Scrumptious\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "SourceId": "ScavengeRUs",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Users\\eglas\\Source\\Repos\\SE1-Team-Scrumptious\\wwwroot\\",
+      "BasePath": "_content/ScavengeRUs",
+      "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.css.map",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.css.map"
+    },
+    {
+      "Identity": "D:\\Users\\eglas\\Source\\Repos\\SE1-Team-Scrumptious\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "SourceId": "ScavengeRUs",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Users\\eglas\\Source\\Repos\\SE1-Team-Scrumptious\\wwwroot\\",
+      "BasePath": "_content/ScavengeRUs",
+      "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.min.css"
+    },
+    {
+      "Identity": "D:\\Users\\eglas\\Source\\Repos\\SE1-Team-Scrumptious\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "SourceId": "ScavengeRUs",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Users\\eglas\\Source\\Repos\\SE1-Team-Scrumptious\\wwwroot\\",
+      "BasePath": "_content/ScavengeRUs",
+      "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min.css.map",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.min.css.map"
     },
     {
       "Identity": "D:\\Users\\eglas\\Source\\Repos\\SE1-Team-Scrumptious\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
@@ -1850,7 +1867,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js"
     },
     {
       "Identity": "D:\\Users\\eglas\\Source\\Repos\\SE1-Team-Scrumptious\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
@@ -1867,7 +1884,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js.map"
     },
     {
       "Identity": "D:\\Users\\eglas\\Source\\Repos\\SE1-Team-Scrumptious\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
@@ -1884,7 +1901,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js"
     },
     {
       "Identity": "D:\\Users\\eglas\\Source\\Repos\\SE1-Team-Scrumptious\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
@@ -1901,7 +1918,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map"
     },
     {
       "Identity": "D:\\Users\\eglas\\Source\\Repos\\SE1-Team-Scrumptious\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
@@ -1918,7 +1935,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/js/bootstrap.esm.js"
     },
     {
       "Identity": "D:\\Users\\eglas\\Source\\Repos\\SE1-Team-Scrumptious\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
@@ -1935,7 +1952,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/js/bootstrap.esm.js.map"
     },
     {
       "Identity": "D:\\Users\\eglas\\Source\\Repos\\SE1-Team-Scrumptious\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
@@ -1952,7 +1969,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/js/bootstrap.esm.min.js"
     },
     {
       "Identity": "D:\\Users\\eglas\\Source\\Repos\\SE1-Team-Scrumptious\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
@@ -1969,7 +1986,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/js/bootstrap.esm.min.js.map"
     },
     {
       "Identity": "D:\\Users\\eglas\\Source\\Repos\\SE1-Team-Scrumptious\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
@@ -1986,7 +2003,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/js/bootstrap.js"
     },
     {
       "Identity": "D:\\Users\\eglas\\Source\\Repos\\SE1-Team-Scrumptious\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
@@ -2003,7 +2020,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/js/bootstrap.js.map"
     },
     {
       "Identity": "D:\\Users\\eglas\\Source\\Repos\\SE1-Team-Scrumptious\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
@@ -2020,7 +2037,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/js/bootstrap.min.js"
     },
     {
       "Identity": "D:\\Users\\eglas\\Source\\Repos\\SE1-Team-Scrumptious\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
@@ -2037,7 +2054,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/js/bootstrap.min.js.map"
     },
     {
       "Identity": "D:\\Users\\eglas\\Source\\Repos\\SE1-Team-Scrumptious\\wwwroot\\lib\\bootstrap\\LICENSE",
@@ -2096,7 +2113,7 @@
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Users\\eglas\\Source\\Repos\\SE1-Team-Scrumptious\\wwwroot\\",
       "BasePath": "_content/ScavengeRUs",
-      "RelativePath": "lib/jquery/dist/jquery.min.map",
+      "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -2105,27 +2122,10 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.map"
+      "OriginalItemSpec": "wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js"
     },
     {
       "Identity": "D:\\Users\\eglas\\Source\\Repos\\SE1-Team-Scrumptious\\wwwroot\\lib\\jquery\\LICENSE.txt",
-      "SourceId": "ScavengeRUs",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\Users\\eglas\\Source\\Repos\\SE1-Team-Scrumptious\\wwwroot\\",
-      "BasePath": "_content/ScavengeRUs",
-      "RelativePath": "lib/jquery/LICENSE.txt",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\jquery\\LICENSE.txt"
-    },
-    {
-      "Identity": "D:\\Users\\eglas\\Source\\Repos\\SE1-Team-Scrumptious\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "SourceId": "ScavengeRUs",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Users\\eglas\\Source\\Repos\\SE1-Team-Scrumptious\\wwwroot\\",
@@ -2139,10 +2139,10 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js"
+      "OriginalItemSpec": "wwwroot/lib/jquery-validation/dist/additional-methods.js"
     },
     {
-      "Identity": "D:\\Users\\eglas\\Source\\Repos\\SE1-Team-Scrumptious\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "Identity": "D:\\Users\\eglas\\Source\\Repos\\SE1-Team-Scrumptious\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "SourceId": "ScavengeRUs",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Users\\eglas\\Source\\Repos\\SE1-Team-Scrumptious\\wwwroot\\",
@@ -2156,10 +2156,10 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+      "OriginalItemSpec": "wwwroot/lib/jquery-validation/dist/additional-methods.min.js"
     },
     {
-      "Identity": "D:\\Users\\eglas\\Source\\Repos\\SE1-Team-Scrumptious\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "Identity": "D:\\Users\\eglas\\Source\\Repos\\SE1-Team-Scrumptious\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "SourceId": "ScavengeRUs",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Users\\eglas\\Source\\Repos\\SE1-Team-Scrumptious\\wwwroot\\",
@@ -2173,10 +2173,10 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js"
+      "OriginalItemSpec": "wwwroot/lib/jquery-validation/dist/jquery.validate.js"
     },
     {
-      "Identity": "D:\\Users\\eglas\\Source\\Repos\\SE1-Team-Scrumptious\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "Identity": "D:\\Users\\eglas\\Source\\Repos\\SE1-Team-Scrumptious\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "SourceId": "ScavengeRUs",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Users\\eglas\\Source\\Repos\\SE1-Team-Scrumptious\\wwwroot\\",
@@ -2190,10 +2190,10 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+      "OriginalItemSpec": "wwwroot/lib/jquery-validation/dist/jquery.validate.min.js"
     },
     {
-      "Identity": "D:\\Users\\eglas\\Source\\Repos\\SE1-Team-Scrumptious\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "Identity": "D:\\Users\\eglas\\Source\\Repos\\SE1-Team-Scrumptious\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "SourceId": "ScavengeRUs",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Users\\eglas\\Source\\Repos\\SE1-Team-Scrumptious\\wwwroot\\",
@@ -2207,7 +2207,24 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\LICENSE.md"
+      "OriginalItemSpec": "wwwroot/lib/jquery-validation/LICENSE.md"
+    },
+    {
+      "Identity": "D:\\Users\\eglas\\Source\\Repos\\SE1-Team-Scrumptious\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "SourceId": "ScavengeRUs",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Users\\eglas\\Source\\Repos\\SE1-Team-Scrumptious\\wwwroot\\",
+      "BasePath": "_content/ScavengeRUs",
+      "RelativePath": "lib/jquery/dist/jquery.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/lib/jquery/dist/jquery.js"
     },
     {
       "Identity": "D:\\Users\\eglas\\Source\\Repos\\SE1-Team-Scrumptious\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
@@ -2215,7 +2232,7 @@
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Users\\eglas\\Source\\Repos\\SE1-Team-Scrumptious\\wwwroot\\",
       "BasePath": "_content/ScavengeRUs",
-      "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js",
+      "RelativePath": "lib/jquery/dist/jquery.min.js",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",

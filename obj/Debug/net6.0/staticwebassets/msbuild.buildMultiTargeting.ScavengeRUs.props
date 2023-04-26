@@ -1,3 +1,3 @@
 ﻿<Project>
-  <Import Project="..\build\ScavengeRUs.props" />
+  <Import Project="../build/ScavengeRUs.props" />
 </Project>
