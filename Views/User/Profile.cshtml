@@ -1,13 +1,13 @@
 ﻿<!--This is the profile for the logged in user. It
 displays their name, profile picture and username-->
 @model ScavengeRUs.Models.Entities.ApplicationUser
-@using Microsoft.AspNetCore.Hosting
-@inject IWebHostEnvironment env
+@using Microsoft.AspNetCore.Identity
+@inject UserManager<ApplicationUser> UserManager
 
 @{
     ViewData["Title"] = "Profile";
-}
 
+}
 <h1>@Model.FirstName @Model.LastName</h1>
 
 @if (System.IO.File.Exists(System.IO.Path.Combine(env.WebRootPath, "images", "users", Model.UserName + ".jpg")))
@@ -19,12 +19,6 @@ else
     <img src="@Url.Content("~/images/users/default.jpg")" alt="Profile Picture" width="100" />
 }
 
-<form method="post" enctype="multipart/form-data">
-    <label for="imageInput">Upload Image:</label>
-    <input type="file" id="imageInput" name="profileImage">
-    <br>
-    <input type="submit" value="Save Image">
-</form>
 
 <div>
     <hr />
@@ -37,3 +31,5 @@ else
         </dd>
     </dl>
 </div>
+
+
