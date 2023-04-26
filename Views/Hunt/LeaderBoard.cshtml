@@ -1,0 +1,40 @@
+﻿@model IEnumerable<ScavengeRUs.Models.Entities.ApplicationUser>
+
+@{
+    ViewData["Title"] = "LeaderBoard";
+}
+
+<h1>LeaderBoard</h1>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                Name
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.UserScore)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model.OrderByDescending(a => a.UserScore))
+        {
+                <tr>
+                    <td>
+                    @Html.DisplayFor(model => item.FirstName) @Html.DisplayFor(nodel => item.LastName)
+                </td>
+                <td>
+                    @Html.DisplayFor(model => item.UserScore)
+                </td>
+                <td>
+                    @Html.ActionLink("Edit", "Edit", new { id=item.UserName }) |
+                    @Html.ActionLink("Details", "Details", new { id=item.UserName }) |
+                    @Html.ActionLink("Delete", "Delete", new { id=item.UserName })
+                </td>
+            </tr>
+      
+        }
+    </tbody>
+</table>
