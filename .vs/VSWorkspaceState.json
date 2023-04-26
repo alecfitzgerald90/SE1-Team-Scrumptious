@@ -1,7 +1,9 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\Views",
+    "\\Views\\Shared"
   ],
-  "SelectedNode": "\\ScavengeRUs.sln",
+  "SelectedNode": "\\Views\\Shared\\_LoginPartial.cshtml",
   "PreviewInSolutionExplorer": false
 }

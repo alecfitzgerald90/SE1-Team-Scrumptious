@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "B1BwumZ1f00sfvAtG/tDtT4iVKTyjPmiybE9eg4jqJZbEiPa2bQ8hI4+ZxG87NCPjldzYjCYSBZyDfx0n9HQGw==",
+  "dgSpecHash": "TQErgyAihKtCaoCnL7NEVmJT/3jfQM/Ya7VwrTn3Irpw+/O+yBQ7JECiTNKS41FEbc9HMY9co6ULNWYWEaAtKg==",
   "success": true,
-  "projectFilePath": "D:\\Users\\eglas\\source\\repos\\SE1-Team-Scrumptious\\ScavengeRUs.csproj",
+  "projectFilePath": "D:\\Users\\eglas\\Source\\Repos\\SE1-Team-Scrumptious\\ScavengeRUs.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\eglas\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\eglas\\.nuget\\packages\\messagepack\\2.1.152\\messagepack.2.1.152.nupkg.sha512",
