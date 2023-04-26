@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "GoaWc9m4fwdXz0UdbmEPrx4LoVz0RPTLuIr3/nlh7heY682xF9r4ANwjv5Rd/82YF2xwSDuXnIvgKZf4E1d+Kg==",
+  "dgSpecHash": "TQErgyAihKtCaoCnL7NEVmJT/3jfQM/Ya7VwrTn3Irpw+/O+yBQ7JECiTNKS41FEbc9HMY9co6ULNWYWEaAtKg==",
   "success": true,
   "projectFilePath": "D:\\Users\\eglas\\Source\\Repos\\SE1-Team-Scrumptious\\ScavengeRUs.csproj",
   "expectedPackageFiles": [
@@ -47,6 +47,7 @@
     "C:\\Users\\eglas\\.nuget\\packages\\microsoft.entityframeworkcore.sqlite.core\\6.0.10\\microsoft.entityframeworkcore.sqlite.core.6.0.10.nupkg.sha512",
     "C:\\Users\\eglas\\.nuget\\packages\\microsoft.entityframeworkcore.sqlserver\\6.0.15\\microsoft.entityframeworkcore.sqlserver.6.0.15.nupkg.sha512",
     "C:\\Users\\eglas\\.nuget\\packages\\microsoft.entityframeworkcore.tools\\6.0.15\\microsoft.entityframeworkcore.tools.6.0.15.nupkg.sha512",
+    "C:\\Users\\eglas\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
     "C:\\Users\\eglas\\.nuget\\packages\\microsoft.extensions.caching.abstractions\\6.0.0\\microsoft.extensions.caching.abstractions.6.0.0.nupkg.sha512",
     "C:\\Users\\eglas\\.nuget\\packages\\microsoft.extensions.caching.memory\\6.0.1\\microsoft.extensions.caching.memory.6.0.1.nupkg.sha512",
     "C:\\Users\\eglas\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\6.0.0\\microsoft.extensions.configuration.abstractions.6.0.0.nupkg.sha512",
