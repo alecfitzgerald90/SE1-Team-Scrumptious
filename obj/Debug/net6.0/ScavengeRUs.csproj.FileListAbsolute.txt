@@ -1189,3 +1189,9 @@ C:\Users\riley\Source\Repos\SE1-Team-Scrumptious\obj\Debug\net6.0\refint\Scaveng
 C:\Users\riley\Source\Repos\SE1-Team-Scrumptious\obj\Debug\net6.0\ScavengeRUs.pdb
 C:\Users\riley\Source\Repos\SE1-Team-Scrumptious\obj\Debug\net6.0\ScavengeRUs.genruntimeconfig.cache
 C:\Users\riley\Source\Repos\SE1-Team-Scrumptious\obj\Debug\net6.0\ref\ScavengeRUs.dll
+D:\Users\eglas\Source\Repos\SE1-Team-Scrumptious\bin\Debug\net6.0\Microsoft.OpenApi.dll
+D:\Users\eglas\Source\Repos\SE1-Team-Scrumptious\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\Users\eglas\Source\Repos\SE1-Team-Scrumptious\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\Users\eglas\Source\Repos\SE1-Team-Scrumptious\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\Users\eglas\Source\Repos\SE1-Team-Scrumptious\bin\Debug\net6.0\System.Diagnostics.DiagnosticSource.dll
+D:\Users\eglas\Source\Repos\SE1-Team-Scrumptious\bin\Debug\net6.0\System.Reflection.MetadataLoadContext.dll

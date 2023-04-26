@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Users\\eglas\\Source\\Repos\\SE1-Team-Scrumptious\\ScavengeRUs.csproj": {}
+    "D:\\Users\\eglas\\source\\repos\\SE1-Team-Scrumptious\\ScavengeRUs.csproj": {}
   },
   "projects": {
-    "D:\\Users\\eglas\\Source\\Repos\\SE1-Team-Scrumptious\\ScavengeRUs.csproj": {
+    "D:\\Users\\eglas\\source\\repos\\SE1-Team-Scrumptious\\ScavengeRUs.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Users\\eglas\\Source\\Repos\\SE1-Team-Scrumptious\\ScavengeRUs.csproj",
+        "projectUniqueName": "D:\\Users\\eglas\\source\\repos\\SE1-Team-Scrumptious\\ScavengeRUs.csproj",
         "projectName": "ScavengeRUs",
-        "projectPath": "D:\\Users\\eglas\\Source\\Repos\\SE1-Team-Scrumptious\\ScavengeRUs.csproj",
+        "projectPath": "D:\\Users\\eglas\\source\\repos\\SE1-Team-Scrumptious\\ScavengeRUs.csproj",
         "packagesPath": "C:\\Users\\eglas\\.nuget\\packages\\",
-        "outputPath": "D:\\Users\\eglas\\Source\\Repos\\SE1-Team-Scrumptious\\obj\\",
+        "outputPath": "D:\\Users\\eglas\\source\\repos\\SE1-Team-Scrumptious\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
