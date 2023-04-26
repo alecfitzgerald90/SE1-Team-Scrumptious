@@ -9,11 +9,11 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = ScavengeRUs
 build_property.RootNamespace = ScavengeRUs
-build_property.ProjectDir = D:\Users\eglas\source\repos\SE1-Team-Scrumptious\
+build_property.ProjectDir = D:\Users\eglas\Source\Repos\SE1-Team-Scrumptious\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = D:\Users\eglas\source\repos\SE1-Team-Scrumptious
+build_property.MSBuildProjectDirectory = D:\Users\eglas\Source\Repos\SE1-Team-Scrumptious
 build_property._RazorSourceGeneratorDebug = 
 
 [D:/Users/eglas/Source/Repos/SE1-Team-Scrumptious/Areas/Identity/Pages/Account/Login.cshtml]
