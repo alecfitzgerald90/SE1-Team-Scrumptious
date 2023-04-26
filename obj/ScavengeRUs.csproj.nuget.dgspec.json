@@ -1,24 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Jesse\\Source\\Repos\\SE1-Team-Scrumptious\\ScavengeRUs.csproj": {}
+    "C:\\Users\\riley\\Source\\Repos\\SE1-Team-Scrumptious\\ScavengeRUs.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Jesse\\Source\\Repos\\SE1-Team-Scrumptious\\ScavengeRUs.csproj": {
+    "C:\\Users\\riley\\Source\\Repos\\SE1-Team-Scrumptious\\ScavengeRUs.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Jesse\\Source\\Repos\\SE1-Team-Scrumptious\\ScavengeRUs.csproj",
+        "projectUniqueName": "C:\\Users\\riley\\Source\\Repos\\SE1-Team-Scrumptious\\ScavengeRUs.csproj",
         "projectName": "ScavengeRUs",
-        "projectPath": "C:\\Users\\Jesse\\Source\\Repos\\SE1-Team-Scrumptious\\ScavengeRUs.csproj",
-        "packagesPath": "C:\\Users\\Jesse\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Jesse\\Source\\Repos\\SE1-Team-Scrumptious\\obj\\",
+        "projectPath": "C:\\Users\\riley\\Source\\Repos\\SE1-Team-Scrumptious\\ScavengeRUs.csproj",
+        "packagesPath": "C:\\Users\\riley\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\riley\\Source\\Repos\\SE1-Team-Scrumptious\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Jesse\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\riley\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -26,7 +22,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -51,15 +46,15 @@
             },
             "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[6.0.10, )"
+              "version": "[6.0.15, )"
             },
             "Microsoft.AspNetCore.Identity.UI": {
               "target": "Package",
-              "version": "[6.0.10, )"
+              "version": "[6.0.15, )"
             },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
-              "version": "[6.0.10, )"
+              "version": "[6.0.15, )"
             },
             "Microsoft.EntityFrameworkCore.Sqlite": {
               "target": "Package",
@@ -69,11 +64,15 @@
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[6.0.10, )"
+              "version": "[6.0.15, )"
             },
             "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
               "target": "Package",
-              "version": "[6.0.10, )"
+              "version": "[6.0.13, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.3.0, )"
             }
           },
           "imports": [
@@ -95,7 +94,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.200\\RuntimeIdentifierGraph.json"
         }
       }
     }
