@@ -1481,3 +1481,4 @@ C:\Users\kpham\source\repos\SE1-Team-Scrumptious\obj\Debug\net6.0\ScavengeRUs.pd
 C:\Users\kpham\source\repos\SE1-Team-Scrumptious\obj\Debug\net6.0\ScavengeRUs.genruntimeconfig.cache
 C:\Users\kpham\source\repos\SE1-Team-Scrumptious\obj\Debug\net6.0\ref\ScavengeRUs.dll
 C:\Users\kpham\source\repos\SE1-Team-Scrumptious\bin\Debug\net6.0\System.Reflection.MetadataLoadContext.dll
+D:\Users\eglas\Source\Repos\SE1-Team-Scrumptious\bin\Debug\net6.0\System.Reflection.MetadataLoadContext.dll
