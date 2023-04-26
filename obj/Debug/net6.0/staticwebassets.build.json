@@ -1263,7 +1263,7 @@
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Users\\eglas\\Source\\Repos\\SE1-Team-Scrumptious\\wwwroot\\",
       "BasePath": "_content/ScavengeRUs",
-      "RelativePath": "images/Sam Wilson Hall.jpg",
+      "RelativePath": "images/users/test@test.com.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -1272,7 +1272,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\Sam Wilson Hall.jpg"
+      "OriginalItemSpec": "wwwroot\\images\\users\\test@test.com.jpg"
     },
     {
       "Identity": "D:\\Users\\eglas\\Source\\Repos\\SE1-Team-Scrumptious\\wwwroot\\js\\site.js",

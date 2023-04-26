@@ -2,12 +2,29 @@
 @using ScavengeRUs.Models.Enums
 @using Microsoft.AspNetCore.Identity
 @inject UserManager<ApplicationUser> UserManager
+
 @{
     ViewData["Title"] = "Edit";
+    var user = await UserManager.GetUserAsync(User);
 }
 
 <h1>Editing @Model.FirstName @Model.LastName's account</h1>
 <hr />
+@if (System.IO.File.Exists(System.IO.Path.Combine(env.WebRootPath, "images", "users", Model.UserName + ".jpg")))
+{
+    <img src="@Url.Content("~/images/users/" + Model.UserName + ".jpg")" alt="Profile Picture" width="100" />
+}
+else
+{
+    <img src="@Url.Content("~/images/users/default.jpg")" alt="Profile Picture" width="100" />
+}
+
+<form method="post" enctype="multipart/form-data">
+    <label for="imageInput">Upload Image:</label>
+    <input type="file" id="imageInput" name="profileImage">
+    <br>
+    <input type="submit" value="Save Image">
+</form>
 <div class="row">
     <div class="col-md-4">
         <form asp-action="Edit">
@@ -37,7 +54,7 @@
                 </select>
                 <span asp-validation-for="Roles" class="text-danger"></span>
             </div>
-            @if(User.Identity != null && User.Identity.Name == Model.Email)
+            @if (User.Identity != null && User.Identity.Name == Model.Email)
             {
                 <p>You must logout for changes to take effect.</p>
             }
@@ -47,6 +64,11 @@
         </form>
     </div>
 </div>
+
+@{
+    //Model.Username = user.UserName;
+
+}
 
 <div>
     <a asp-action="Manage">Back to List</a>

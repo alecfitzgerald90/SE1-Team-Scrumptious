@@ -34,12 +34,12 @@ namespace ScavengeRUs.Controllers
             var users = await _userRepo.ReadAllAsync(); //Reads all the users in the db
 
             //if the admin didn't search for anything just return all the users
-            if(string.IsNullOrEmpty(searchString))
+            if (string.IsNullOrEmpty(searchString))
                 return View(users);  //Right click and go to view to see HTML
 
             //this line of code filters out all the users whose emails and phone numbers do not
             //contain the search string
-            var searchResults = users.Where(user => user.Email.Contains(searchString) 
+            var searchResults = users.Where(user => user.Email.Contains(searchString)
             || !string.IsNullOrEmpty(user.PhoneNumber) && user.PhoneNumber.Contains(searchString));
 
             return View(searchResults);
@@ -49,7 +49,7 @@ namespace ScavengeRUs.Controllers
         /// </summary>
         /// <param name="username"></param>
         /// <returns></returns>
-        public async Task<IActionResult> Edit([Bind(Prefix = "id")]string username)
+        public async Task<IActionResult> Edit([Bind(Prefix = "id")] string username)
         {
             var user = await _userRepo.ReadAsync(username);
             return View(user);
@@ -60,21 +60,39 @@ namespace ScavengeRUs.Controllers
         /// <param name="user"></param>
         /// <returns></returns>
         [HttpPost]
-        public async Task<IActionResult> Edit(ApplicationUser user)
+        public async Task<IActionResult> Edit(ApplicationUser user, IFormFile profileImage)
         {
+            // ModelState.IsValid seems to break when I add "IFormFile profileImage"
+            /*
             if (ModelState.IsValid)
             {
                 await _userRepo.UpdateAsync(user.Id, user);
                 return RedirectToAction("Manage");
             }
-            return View(user);
+            */
+
+            var currentUser = await _userRepo.ReadAsync(user.Id);
+            if (profileImage != null && profileImage.Length > 0)
+            {
+                var fileName = Path.GetFileName(profileImage.FileName);
+                var filePath = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot", "images", "users", currentUser.UserName + ".jpg");
+
+                using (var stream = new FileStream(filePath, FileMode.Create))
+                {
+                    await profileImage.CopyToAsync(stream);
+                }
+                return RedirectToAction("Manage");
+            }
+            await _userRepo.UpdateAsync(user.Id, user);
+            return RedirectToAction("Manage");
+            //return View(user);
         }
         /// <summary>
         /// This is the landing page to delete a user aka "Are you sure you want to delete user X?"
         /// </summary>
         /// <param name="username"></param>
         /// <returns></returns>
-        public async Task<IActionResult> Delete([Bind(Prefix ="id")]string username)
+        public async Task<IActionResult> Delete([Bind(Prefix = "id")] string username)
         {
             var user = await _userRepo.ReadAsync(username);
             if (user == null)
@@ -90,7 +108,7 @@ namespace ScavengeRUs.Controllers
         /// <returns></returns>
         /// 
         [HttpPost, ActionName("Delete")]
-        public async Task<IActionResult> DeleteConfirmed([Bind(Prefix = "id")]string username)
+        public async Task<IActionResult> DeleteConfirmed([Bind(Prefix = "id")] string username)
         {
             await _userRepo.DeleteAsync(username);
             return RedirectToAction("Manage");
@@ -100,7 +118,7 @@ namespace ScavengeRUs.Controllers
         /// </summary>
         /// <param name="username"></param>
         /// <returns></returns>
-        public async Task<IActionResult> Details([Bind(Prefix = "id")]string username)
+        public async Task<IActionResult> Details([Bind(Prefix = "id")] string username)
         {
             var user = await _userRepo.ReadAsync(username);
 
@@ -125,12 +143,12 @@ namespace ScavengeRUs.Controllers
         {
             if (ModelState.IsValid)
             {
-                user.UserName = user.Email;
+                user.UserName = user.Username;
                 await _userRepo.CreateAsync(user, defaultPassword);
                 return RedirectToAction("Details", new { id = user.UserName });
             }
             return View(user);
-            
+
         }
         /// <summary>
         /// This is the profile page for a user /user/profile/
@@ -142,7 +160,31 @@ namespace ScavengeRUs.Controllers
             var currentUser = await _userRepo.ReadAsync(User.Identity?.Name!);
             return View(currentUser);
         }
+
+        /// <summary>
+        /// Receives image from user input, then saves it to images/users folder.
+        /// </summary>
+        /// <param></param>
+        /// <returns></returns>
+        [HttpPost]
+        public async Task<IActionResult> Profile(IFormFile profileImage)
+        {
+            var currentUser = await _userRepo.ReadAsync(User.Identity?.Name!);
+            if (profileImage != null && profileImage.Length > 0)
+            {
+                var fileName = Path.GetFileName(profileImage.FileName);
+                var filePath = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot", "images", "users", currentUser.UserName + ".jpg");
+
+                using (var stream = new FileStream(filePath, FileMode.Create))
+                {
+                    await profileImage.CopyToAsync(stream);
+                }
+            }
+
+            return RedirectToAction("Profile");
+        }
         
 
     }
 }
+
