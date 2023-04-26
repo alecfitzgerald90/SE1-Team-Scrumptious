@@ -16,6 +16,7 @@
         var user = await userRepo.ReadAsync(User.Identity?.Name!);
         var fullName = $"{User.Identity?.Name}";
 
+
         <li class="nav-item">
         <a  class="nav-link text-dark" asp-area="Identity" asp-page="/Account/Manage/Index" title="Manage">Hello @fullName!</a>
     </li>
