@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Oe64F6p1mxNCHwx6jeOBnzU+gA3S+jT6LHoyFjw/nmPF/N8wsSJfmRP77W90uRckKg2ITv/0x9VBHHYNiZ6fyg==",
+  "dgSpecHash": "5zneCNln9FhEWmSbCI8hUqI4/qPecpD8yIJ/e0aupUi1PNYlk7KOtk7BDJ6oCF8ZPZSAno3ZHrCtb+oVWt9+dw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\riley\\OneDrive\\New folder\\Documents\\SE1_Project\\Sprint3.2\\ScavengeRUs.csproj",
+  "projectFilePath": "C:\\Users\\riley\\Source\\Repos\\SE1-Team-Scrumptious\\ScavengeRUs.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\riley\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\riley\\.nuget\\packages\\messagepack\\2.1.152\\messagepack.2.1.152.nupkg.sha512",

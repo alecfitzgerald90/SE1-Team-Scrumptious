@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\riley\\OneDrive\\New folder\\Documents\\SE1_Project\\Sprint3.2\\ScavengeRUs.csproj": {}
+    "C:\\Users\\riley\\Source\\Repos\\SE1-Team-Scrumptious\\ScavengeRUs.csproj": {}
   },
   "projects": {
-    "C:\\Users\\riley\\OneDrive\\New folder\\Documents\\SE1_Project\\Sprint3.2\\ScavengeRUs.csproj": {
+    "C:\\Users\\riley\\Source\\Repos\\SE1-Team-Scrumptious\\ScavengeRUs.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\riley\\OneDrive\\New folder\\Documents\\SE1_Project\\Sprint3.2\\ScavengeRUs.csproj",
+        "projectUniqueName": "C:\\Users\\riley\\Source\\Repos\\SE1-Team-Scrumptious\\ScavengeRUs.csproj",
         "projectName": "ScavengeRUs",
-        "projectPath": "C:\\Users\\riley\\OneDrive\\New folder\\Documents\\SE1_Project\\Sprint3.2\\ScavengeRUs.csproj",
+        "projectPath": "C:\\Users\\riley\\Source\\Repos\\SE1-Team-Scrumptious\\ScavengeRUs.csproj",
         "packagesPath": "C:\\Users\\riley\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\riley\\OneDrive\\New folder\\Documents\\SE1_Project\\Sprint3.2\\obj\\",
+        "outputPath": "C:\\Users\\riley\\Source\\Repos\\SE1-Team-Scrumptious\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\riley\\AppData\\Roaming\\NuGet\\NuGet.Config",
