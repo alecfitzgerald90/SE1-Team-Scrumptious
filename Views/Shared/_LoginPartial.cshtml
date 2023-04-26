@@ -8,19 +8,15 @@
     @if (SignInManager.IsSignedIn(User))
     {
         var user = await userRepo.ReadAsync(User.Identity?.Name!);
-        var fullName = $"{user!.FirstName} {user!.LastName}";
+        var fullName = $"{User.Identity?.Name}";
         var score = user.UserScore;
 
         <li class="nav-item">
             <a class="nav-link text-dark" asp-controller="Hunt" asp-action="LeaderBoard" title="Leaderboard">Leaderboard!</a>
         </li>
+     }
         <li class="nav-item">
-            <a class="nav-link text-dark">Hello @fullName</a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link text-dark" asp-area="Identity" asp-page="/Account/Manage/Index" title="Manage">Account!</a>
-        </li>
-        <li class="nav-item">
+
 
     @{
         
@@ -33,8 +29,8 @@
 
         <li class="nav-item">
         <a  class="nav-link text-dark" asp-area="Identity" asp-page="/Account/Manage/Index" title="Manage">Hello @fullName!</a>
-    </li>
-    <li class="nav-item">
+        </li>
+        <li class="nav-item">
             @if (User.IsInRole("Admin"))
             {
                 <a class="nav-link text-dark" asp-controller="User" asp-action="Manage" title="Manage">Admin Portal</a>

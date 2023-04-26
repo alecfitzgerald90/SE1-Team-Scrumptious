@@ -1,8 +1,9 @@
 ﻿@model ScavengeRUs.Models.Entities.ApplicationUser
+@using Microsoft.AspNetCore.Hosting
 @using ScavengeRUs.Models.Enums
 @using Microsoft.AspNetCore.Identity
 @inject UserManager<ApplicationUser> UserManager
-
+@inject IWebHostEnvironment WebHostEnvironment
 @{
     ViewData["Title"] = "Edit";
     var user = await UserManager.GetUserAsync(User);
@@ -10,7 +11,7 @@
 
 <h1>Editing @Model.FirstName @Model.LastName's account</h1>
 <hr />
-@if (System.IO.File.Exists(System.IO.Path.Combine(env.WebRootPath, "images", "users", Model.UserName + ".jpg")))
+@if (System.IO.File.Exists(System.IO.Path.Combine(WebHostEnvironment.WebRootPath, "images", "users", Model.UserName + ".jpg")))
 {
     <img src="@Url.Content("~/images/users/" + Model.UserName + ".jpg")" alt="Profile Picture" width="100" />
 }
