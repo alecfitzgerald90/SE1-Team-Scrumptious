@@ -1,15 +1,25 @@
 ﻿<!--This is the profile for the logged in user. It
 displays their name, profile picture and username-->
+@using Microsoft.AspNetCore.Hosting
 @model ScavengeRUs.Models.Entities.ApplicationUser
 @using Microsoft.AspNetCore.Identity
 @inject UserManager<ApplicationUser> UserManager
+@inject IWebHostEnvironment WebHostEnvironment
 
 @{
     ViewData["Title"] = "Profile";
 
 }
 <h1>@Model.FirstName @Model.LastName</h1>
-<p>placeholder for profile picture</p>
+
+@if (System.IO.File.Exists(System.IO.Path.Combine(WebHostEnvironment.WebRootPath, "images", "users", Model.UserName + ".jpg")))
+{
+    <img src="@Url.Content("~/images/users/" + Model.UserName + ".jpg")" alt="Profile Picture" width="100" />
+}
+else
+{
+    <img src="@Url.Content("~/images/users/default.jpg")" alt="Profile Picture" width="100" />
+}
 
 
 <div>

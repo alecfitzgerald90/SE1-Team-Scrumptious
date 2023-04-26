@@ -1,8 +1,9 @@
 ﻿@model ScavengeRUs.Models.Entities.ApplicationUser
+@using Microsoft.AspNetCore.Hosting
 @using ScavengeRUs.Models.Enums
 @using Microsoft.AspNetCore.Identity
 @inject UserManager<ApplicationUser> UserManager
-
+@inject IWebHostEnvironment WebHostEnvironment
 @{
     ViewData["Title"] = "Edit";
     var user = await UserManager.GetUserAsync(User);
@@ -10,6 +11,21 @@
 
 <h1>Editing @Model.FirstName @Model.LastName's account</h1>
 <hr />
+@if (System.IO.File.Exists(System.IO.Path.Combine(WebHostEnvironment.WebRootPath, "images", "users", Model.UserName + ".jpg")))
+{
+    <img src="@Url.Content("~/images/users/" + Model.UserName + ".jpg")" alt="Profile Picture" width="100" />
+}
+else
+{
+    <img src="@Url.Content("~/images/users/default.jpg")" alt="Profile Picture" width="100" />
+}
+
+<form method="post" enctype="multipart/form-data">
+    <label for="imageInput">Upload Image:</label>
+    <input type="file" id="imageInput" name="profileImage">
+    <br>
+    <input type="submit" value="Save Image">
+</form>
 <div class="row">
     <div class="col-md-4">
         <form asp-action="Edit">
