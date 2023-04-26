@@ -2,6 +2,7 @@
 using Microsoft.AspNetCore.Mvc;
 using ScavengeRUs.Models.Entities;
 using ScavengeRUs.Services;
+using ScavengeRUs.Data;
 using Microsoft.AspNetCore.Identity;
 
 namespace ScavengeRUs.Controllers
@@ -233,6 +234,12 @@ namespace ScavengeRUs.Controllers
             var currentUser = await _userRepo.ReadAsync(User.Identity?.Name!);
             var hunt = await _huntRepo.ReadHuntWithRelatedData(huntid);
             ViewData["Hunt"] = hunt;
+
+            if (currentUser!.UserScore.Equals(null))
+            {
+                currentUser!.UserScore = 0;
+            }
+
             if (hunt == null)
             {
                 return RedirectToAction("Index");
@@ -256,7 +263,10 @@ namespace ScavengeRUs.Controllers
                 }
             return View(tasks);
             
+
         }
+
+        
         /// <summary>
         /// This method shows all tasks that can be added to the hunt. Exculding the tasks that are already added
         /// </summary>
@@ -310,6 +320,13 @@ namespace ScavengeRUs.Controllers
         {
             await _huntRepo.RemoveTaskFromHunt(id, huntid);
             return RedirectToAction("ManageTasks", "Hunt", new {id=huntid});
+        }
+
+        [Authorize(Roles = "Player, Admin")]
+        public async Task<IActionResult> LeaderBoard()
+        {
+            var users = await _userRepo.ReadAllAsync();
+            return View(users);
         }
     }
 }
